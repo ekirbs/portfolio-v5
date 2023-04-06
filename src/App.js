@@ -1,15 +1,17 @@
 import React from 'react';
-import { Navbar, Home, Contact } from "./components";
+import { Header, Navbar, Main, Contact, Footer } from "./components";
 
-import "./assets/css/baseStyle.css";
+import "./assets/css/globalStyle.css";
 
 export default function App() {
  
   return (
     <>
+      <Header />
       <Navbar />
-      <Home />
+      <Main />
       <Contact />
+      <Footer />
     </>
   );
 }
