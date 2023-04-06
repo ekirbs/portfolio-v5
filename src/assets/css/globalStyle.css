@@ -1,0 +1,64 @@
+/* |||| GLOBAL STYLE |||| */
+
+/* ROOT COLOR KEY */
+:root {
+  --primary: #424242;
+  --secondary: #808080;
+  --tertiary: #FFFDD0;
+  --quatrinary: #bdbdbd;
+  --light: #dfdfdf;
+  --dark: #3B3B38;
+  --white: #ffffff;
+  --black: #000000;
+  --silver: #c0c0c0;
+  --weatherBlue: #113555;
+  --weatherTitle: #365a7a;
+  --highlight: #ffc107;
+  --highmid: #ffa000;
+  --highdark: #ff6f00;
+  --cylight: #b2ebf2;
+  --cymid: #4dd0e1;
+  --cydark: #00bcd4;
+  --cydarker: #00acc1;
+  --turq: #69dcf3;
+  --error: rgb(228, 46, 1);
+  --border-radius: 5%;
+}
+
+/* GLOBAL EFFECTS */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  user-select: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background: url(../images/black-space.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  /* font not working */
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+::-webkit-scrollbar {
+  width: auto;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--highmid);
+}
