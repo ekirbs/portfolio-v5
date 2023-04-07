@@ -6,7 +6,6 @@
   "author": "Eric Kirberger",
   "license": "MIT",
   "homepage": "https://github.com/ekirbs/portfolio-v5#readme",
-  "main": "index.js",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
@@ -62,7 +61,7 @@
     "type": "git",
     "url": "git+https://github.com/ekirbs/portfolio-v5.git"
   },
-  "keywords": ["web developer", "react", "responsive"],
+  "keywords": ["web developer", "React", "responsive", "JavaScript", "CSS"],
   "bugs": {
     "url": "https://github.com/ekirbs/portfolio-v5/issues"
   },
