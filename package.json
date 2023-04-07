@@ -1,11 +1,11 @@
 {
   "name": "portfolio-v5",
-  "version": "5.1.0",
-  "private": true,
-  "description": "The portfolio of Eric Kirberger || Full Stack Web Developer.",
   "author": "Eric Kirberger",
+  "version": "5.1.0",
+  "description": "The portfolio of Eric Kirberger || Full Stack Web Developer.",
   "license": "MIT",
-  "homepage": "https://github.com/ekirbs/portfolio-v5#readme",
+  "private": true,
+  "homepage": "https://github.com/ekirbs/portfolio-v5",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
@@ -15,6 +15,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "animate.css": "^4.1.1",
     "axios": "^1.2.6",
     "bootstrap": "^5.2.3",
     "dotenv": "^16.0.3",
