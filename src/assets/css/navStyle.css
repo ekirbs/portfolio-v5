@@ -1,20 +1,69 @@
-.navBar {
+.nav {
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   display: flex;
   flex-direction: column;
 }
 
-.navBar a {
-  margin: 10px;
-  padding: 10px;
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
+.FaBars,
+.FaTimes {
+  color: var(--black);
+  height: 5vh;
+  width: 5vh;
 }
 
-.navBar a:hover {
+.menu-icon {
+  background-color: var(--white);
+  border-radius: 50%;
+  width: 10vh;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+  margin: 1vw;
+}
+
+.close-icon {
+  position: absolute;
+  width: 10vh;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  top: 2vh;
+  right: 2vh;
+  cursor: grab;
+}
+
+.dropdown-menu {
+  position: fixed;
+  top: 1vw;
+  right: 1vw;
+  width: 10vw;
+  background-color: var(--black);
+  border-radius: 20px;
+  margin: 1vw;
+  padding: 1vw;
+  z-index: 1;
+  display: flex !important;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-items a {
+  color: var(--black);
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.menu-items a:hover {
   background-color: white;
   color: black;
   border-radius: 5px;
