@@ -1,11 +1,11 @@
 import React from 'react';
-// import { robotHead } from "../..assets/images";
+import { robotHead } from "../../assets/images";
 import "../../assets/css/headerStyle.css"
 
 export default function Header() {
   return (
-    <header className="header">
-      <a href="https://ekirbs.github.io/portfolio-v5/"><h1>Eric Kirberger || Web Developer</h1></a>
+    <header id="top" className="header">
+      Eric Kirberger <img src={robotHead} className="headShot" alt="Eric Kirberger."></img> Web Developer
     </header>
   );
 }

@@ -1,0 +1,37 @@
+.footer {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 2px solid var(--primary);
+}
+
+.footer a {
+  margin: 0;
+  text-align: center;
+  color: var(--white);
+  transition: transform 0.2s;
+}
+
+.footer a:hover {
+  color: var(--error);
+  transform: scale(1.1);
+}
+
+.footer img {
+  height: 5vh;
+  width: 5vh;
+  border-radius: 22%;
+  box-shadow: 1px 1px 2px var(--black);
+}
+
+.footerText {
+  margin-left: 1vw;
+}
+
+@media screen and (max-width: 500px) {
+  .footerText {
+    display: none;
+  }
+}
