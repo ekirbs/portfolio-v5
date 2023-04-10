@@ -1,16 +1,26 @@
 .main {
   height: 150vh;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.about {
+.about,
+.projects,
+.contact {
   height: 50vh;
+  width: 95vw;
+  border: 2px solid var(--white);
+  border-radius: 20px;
+  margin: 2vh;
+  padding: 2vh;
 }
 
-.projects {
+/* .projects {
   height: 50vh;
 }
 
 .contact {
   height: 50vh;
-}
+} */
