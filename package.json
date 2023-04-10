@@ -19,6 +19,7 @@
     "axios": "^1.2.6",
     "bootstrap": "^5.2.3",
     "dotenv": "^16.0.3",
+    "emailjs-com": "^3.2.0",
     "gh-pages": "^5.0.0",
     "prettier": "^2.8.6",
     "react": "^18.2.0",
@@ -62,7 +63,13 @@
     "type": "git",
     "url": "git+https://github.com/ekirbs/portfolio-v5.git"
   },
-  "keywords": ["web developer", "React", "responsive", "JavaScript", "CSS"],
+  "keywords": [
+    "web developer",
+    "React",
+    "responsive",
+    "JavaScript",
+    "CSS"
+  ],
   "bugs": {
     "url": "https://github.com/ekirbs/portfolio-v5/issues"
   },

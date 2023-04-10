@@ -4,6 +4,32 @@
   align-items: center;
 }
 
+.contactCardHeading {
+  color: var(--white);
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactArea {
+  margin: 1vh;
+  width: 400px;
+}
+
+.contactCardContent {
+  color: var(--white);
+}
 
 .error-text {
   color: var(--error);
