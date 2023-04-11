@@ -4,7 +4,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 50vh;
+  height: 90vh;
   width: 100%;
   /* font-size: larger; */
   display: flex;
@@ -14,9 +14,20 @@
 }
 
 .headShot {
-  height: 20vw;
-  width: 20vw;
+  height: 25vh;
+  width: 25vh;
   border-radius: 50%;
   margin: 1vw;
 }
 
+@media screen and (max-width: 900px) {
+  .header h1 {
+
+  }
+}
+
+/* .fade-in {
+  opacity: 0;
+  transition: opacity 3s ease-in-out;
+  opacity: 1;
+} */

@@ -5,3 +5,5 @@ export { default as instagramLogo } from "./instagram-logo.png";
 export { default as githubLogo } from "./github-logo.jpg";
 export { default as linkedinLogo } from "./linkedin-logo.jpg";
 export { default as robotHead } from "./robot-head.png";
+export { default as treeRoad } from "./tree-road.jpg";
+export { default as profilePhoto } from "./profile-photo.jpg";

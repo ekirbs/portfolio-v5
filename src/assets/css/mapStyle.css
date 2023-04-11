@@ -1,0 +1,19 @@
+.map-card {
+  margin: 5vw 10vw;
+  background: var(--white);
+  border-radius: 4vh;
+  box-shadow: 1px 1px 4px var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+}
+
+.mapForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mapInput {
+  margin: 1vh;
+}

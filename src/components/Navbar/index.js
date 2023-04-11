@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { AiFillHome, AiFillMail, AiFillProject, AiFillMeh } from 'react-icons/ai';
 import "../../assets/css/navStyle.css";
 
 export default function Navbar() {
@@ -18,11 +19,10 @@ export default function Navbar() {
             <FaTimes className="FaTimes" />
           </div>
           <div className="menu-items">
-            <a href="#top">Top</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#resume">Resume</a>
-            <a href="#contact">Contact</a>
+            <a href="#top"><AiFillHome /></a>
+            <a href="#projects"><AiFillProject /></a>
+            <a href="#about"><AiFillMeh /></a>
+            <a href="#contact"><AiFillMail /></a>
           </div>
         </div>
       )}

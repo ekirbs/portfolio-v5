@@ -1,0 +1,10 @@
+.projects-card {
+  height: 75vh;
+  width: auto;
+  background: var(--primary);
+  margin: 20vh;
+  padding: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

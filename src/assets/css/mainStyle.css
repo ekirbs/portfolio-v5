@@ -1,4 +1,9 @@
 .main {
+  background: url(../../assets/images/tree-road.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   height: 150vh;
   width: 100%;
   display: flex;
@@ -6,10 +11,7 @@
   align-items: center;
 }
 
-.about,
-.projects,
-.resume,
-.contact {
+.main-section {
   height: 50vh;
   width: 95vw;
   border: 2px solid var(--white);
@@ -17,11 +19,3 @@
   margin: 2vh;
   padding: 2vh;
 }
-
-/* .projects {
-  height: 50vh;
-}
-
-.contact {
-  height: 50vh;
-} */

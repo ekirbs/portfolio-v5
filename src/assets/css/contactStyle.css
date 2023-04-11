@@ -1,11 +1,21 @@
 .contactCard {
+  height: 75vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  background: var(--secondary);
+  padding: 2vw;
 }
 
-.contactCardHeader {
+.contactCardHeading {
   color: var(--white);
+}
+
+.contact-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contactContainer {

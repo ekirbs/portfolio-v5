@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: space-around;
   border-top: 2px solid var(--primary);
+  background: var(--black);
 }
 
 .footer a {
