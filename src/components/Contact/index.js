@@ -26,18 +26,18 @@ export default function Contact() {
       return;
     };
 
-    console.log('Sending... 📨');
+    console.log("Sending... 📨");
 
     send(
-      'service_3khjmam',
-      'template_ikuskwe',
+      "service_3khjmam",
+      "template_ikuskwe",
       formInput,
       // 'User ID'
-      '0RxlZ4mD90QgJogVU'
+      "Kpewq1Vl2d7aSMnL3"
     )
       .then((response) => {
         alert(`Welcome to the jungle, ${formInput.from_name}!`);
-        console.log('SUCCESS!', response.status, response.text);
+        console.log("SUCCESS!", response.status, response.text);
         setSubmit(true)
         setFormInput({
           from_name: '',
@@ -46,7 +46,7 @@ export default function Contact() {
         })
       })
       .catch((err) => {
-        console.log('FAILED...', err);
+        console.log("FAILED...", err);
       });
   };
 
