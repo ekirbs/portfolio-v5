@@ -1,4 +1,9 @@
 .header {
+  background: url(../../assets/images/fireworks-road.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   height: 50vh;
   width: 100%;
   /* font-size: larger; */
