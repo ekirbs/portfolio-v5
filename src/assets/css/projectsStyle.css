@@ -43,16 +43,6 @@
   border: 1px solid var(--highmid) !important;
 }
 
-/* .slider-button-left {
-  left: 5%;
-  transform: translate(-50%, -50%);
-}
-
-.slider-button-right {
-  right: -85%;
-  transform: translate(50%, -50%);
-} */
-
 .project-container {
   height: 60vh;
   width: 70vw;
