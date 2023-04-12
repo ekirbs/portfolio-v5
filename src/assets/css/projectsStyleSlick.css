@@ -1,0 +1,33 @@
+.projects-card {
+  height: 100vh;
+  width: 100vw;
+  background: var(--primary);
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.projects-card-heading {
+  height: 20vh;
+  color: var(--white);
+  margin-top: 2vh;
+}
+
+.slick-slider,
+.slick-list,
+.slick-track {
+  width: 90% !important;
+  height: 90% !important;
+}
+
+.project-container {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-img {
+  height: 25vh;
+  width: 25vw;
+}
