@@ -19,10 +19,10 @@ export default function Navbar() {
             <FaTimes className="FaTimes" />
           </div>
           <div className="menu-items">
-            <a href="#top"><AiFillHome /></a>
-            <a href="#projects"><AiFillProject /></a>
-            <a href="#about"><AiFillMeh /></a>
-            <a href="#contact"><AiFillMail /></a>
+            <a href="#top"><AiFillHome />home</a>
+            <a href="#projects"><AiFillProject />projects</a>
+            <a href="#about"><AiFillMeh />me</a>
+            <a href="#contact"><AiFillMail />contact</a>
           </div>
         </div>
       )}

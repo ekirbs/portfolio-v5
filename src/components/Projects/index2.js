@@ -7,12 +7,17 @@ import "../../assets/css/projectsStyle.css";
 // Whatever you render out in the Slider will be draggable 'slides'
 export default function Projects() {
   // state should start with the index you want to start the slide on
-  
   const [index, setIndex] = useState(0);
 
   const setFinishedIndex = (i) => {
     console.log("finished dragging on slide", i);
-    setIndex(i);
+    if (i < 0) {
+      setIndex(projects.length - 1);
+    } else if (i > projects.length - 1) {
+      setIndex(0);
+    } else {
+      setIndex(i);
+    }
   };
 
   const next = () => {
@@ -29,22 +34,22 @@ export default function Projects() {
         <h1 className="projects-card-heading">My Portfolio</h1>
         <Container className="projects-card-content">
           <div className="slider-container">
-            <Button
-              onClick={previous}
-              left
-              // disabled={index === 0}
-              className="slider-button slider-button-left bg-dark"
-            >
-              〈
-            </Button>
-            <Button
-              onClick={next}
-              right
-              // disabled={index === projects.length - 1}
-              className="slider-button slider-button-right bg-dark"
-            >
-              〉
-            </Button>
+            <div className="slider-button-container">
+              <Button
+                onClick={previous}
+                left={true}
+                className="slider-button slider-button-left bg-dark"
+              >
+                〈
+              </Button>
+              <Button
+                onClick={next}
+                right={true}
+                className="slider-button slider-button-right bg-dark"
+              >
+                〉
+              </Button>
+            </div>
             <Slider
               onSlideComplete={setFinishedIndex}
               onSlideStart={(i) => {
@@ -57,8 +62,8 @@ export default function Projects() {
               scaleOnDrag={true}
             >
               {projects.map(({ pic, title, description, url }, index) => (
-                <div className="project-container">
-                  <img src={pic} key={index} alt={title} />
+                <div className="project-container" key={index}>
+                  <img src={pic} alt={title} />
                   <h3>{title}</h3>
                   <p>{description}</p>
                   <a href={url} target="_blank" rel="noreferrer"><h4>Visit Site!</h4></a>
