@@ -9,11 +9,22 @@ export default function Projects() {
   // state should start with the index you want to start the slide on
   const [index, setIndex] = useState(0);
 
+  // const setFinishedIndex = (i) => {
+  //   console.log("finished dragging on slide", i);
+  //   if (i < 0) {
+  //     setIndex(projects.length - 1);
+  //   } else if (i > projects.length - 1) {
+  //     setIndex(0);
+  //   } else {
+  //     setIndex(i);
+  //   }
+  // };
+
   const setFinishedIndex = (i) => {
     console.log("finished dragging on slide", i);
     if (i < 0) {
       setIndex(projects.length - 1);
-    } else if (i > projects.length - 1) {
+    } else if (i >= projects.length) {
       setIndex(0);
     } else {
       setIndex(i);
@@ -31,7 +42,7 @@ export default function Projects() {
   return (
     <>
       <div id="projects" className="projects-card">
-        <h1 className="projects-card-heading">My Portfolio</h1>
+        <h1 className="projects-card-heading">My Work</h1>
         <Container className="projects-card-content">
           <div className="slider-container">
             <div className="slider-button-container">

@@ -1,0 +1,18 @@
+.techs-card {
+  height: 25vh;
+  width: 100%;
+  background: var(--secondary);
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+}
+
+.tech-logo {
+  height: 20vh;
+  width: 20vh;
+  color: var(--black);
+}
+
+.tech-logo:hover {
+  color: var(--highmid);
+}

@@ -1,46 +1,34 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { AiFillHome, AiFillMail, AiFillProject, AiFillMeh } from 'react-icons/ai';
 import "../../assets/css/navStyle2.css";
 
 export default function Navbar() {
-  const [ showMenu, setShowMenu ] = useState(false);
+  const [ showDropdown, setShowDropdown ] = useState(false);
 
-  const toggleMenu = () => {
-    setShowMenu(!showMenu);
-    setTimeout(() => {
-      const dropdownMenu = document.querySelector('.dropdown-menu');
-      if (dropdownMenu) {
-        dropdownMenu.classList.add('fade-in');
-      }
-    }, 10);
-  }
-
-  useEffect(() => {
-    const dropdownMenu = document.querySelector('.dropdown-menu');
-    if (dropdownMenu) {
-      dropdownMenu.classList.remove('fade-in');
-    }
-  }, [showMenu]);
+  const toggleDropdown = () => setShowDropdown(!showDropdown);
 
   return (
     <>
-      <div className="menu-icon nav" onClick={toggleMenu}>
-        <FaBars className="FaBars"/>
-      </div>
-      {showMenu && (
-        <div className="dropdown-menu">
-          <div className="close-icon" onClick={toggleMenu}>
+      <div className="nav">
+        <div className="menu-icon" onClick={toggleDropdown}>
+          {showDropdown ? (
             <FaTimes className="FaTimes" />
-          </div>
-          <div className="menu-items">
-            <a href="#top">Top</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#resume">Resume</a>
-            <a href="#contact">Contact</a>
-          </div>
+          ) : (
+            <FaBars className="FaBars"/>
+          )}
         </div>
-      )}
+        {showDropdown && (
+          <div className="dropdown-menu">
+            <div className="menu-items">
+              <a href="#top"><AiFillHome /></a>
+              <a href="#projects"><AiFillProject /></a>
+              <a href="#about"><AiFillMeh /></a>
+              <a href="#contact"><AiFillMail /></a>
+            </div>
+          </div>
+        )}
+      </div>
     </>
   );
 }

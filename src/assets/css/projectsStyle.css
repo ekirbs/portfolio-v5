@@ -35,7 +35,7 @@
 
 .slider-button {
   /* font-size: 2rem; */
-  z-index: 10;
+  z-index: 2;
   position: absolute;
   top: 50%;
   background: var(--turq);

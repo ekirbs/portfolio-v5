@@ -7,3 +7,4 @@ export { default as linkedinLogo } from "./linkedin-logo.jpg";
 export { default as robotHead } from "./robot-head.png";
 export { default as treeRoad } from "./tree-road.jpg";
 export { default as profilePhoto } from "./profile-photo.jpg";
+export { default as puddleShineGif } from "./puddle-shine.webp";

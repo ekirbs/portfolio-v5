@@ -26,7 +26,7 @@ export default function Projects() {
   return (
     <>
       <div id="projects" className="projects-card">
-        <h1 className="projects-card-heading">My Portfolio</h1>
+        <h1 className="projects-card-heading">My Work</h1>
         <Container className="projects-card-content">
           <div className="slider-container">
             <Button

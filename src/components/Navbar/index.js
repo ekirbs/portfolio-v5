@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <>
       <div className="menu-icon nav" onClick={toggleMenu}>
-        <FaBars className="FaBars"/>
+        <FaBars className="FaBars" />
       </div>
       {showMenu && (
         <div className="dropdown-menu">
