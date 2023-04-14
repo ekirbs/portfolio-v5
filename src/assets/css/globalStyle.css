@@ -21,6 +21,16 @@
   --cydark: #00bcd4;
   --cydarker: #00acc1;
   --turq: #69dcf3;
+  --react: #00d8ff;
+  --css3: #0074d9;
+  --js: #f7df1e;
+  --html5: #e34f26;
+  --node: #6cc24a;
+  --mongo: #589636;
+  --apollo: #311c87;
+  --graph: #e10098;
+  --sequelize: #00a5db;
+  --handlebars: #ff7b00;
   --error: rgb(228, 46, 1);
   --border-radius: 5%;
 }

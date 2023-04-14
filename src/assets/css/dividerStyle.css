@@ -13,3 +13,19 @@
   border-bottom: 8vw solid var(--primary);
   margin-top: -8vw;
 }
+
+.divider2 {
+  width: 0;
+  height: 0;
+  border-right: 100vw solid transparent;
+  border-bottom: 8vw solid var(--secondary);
+  margin-top: -8vw;
+}
+
+.divider3 {
+  height: 10vh;
+  width: 100vw;
+  background-color: var(--primary);
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 0 100%);
+  margin: 0 0 -5vh 0;
+}

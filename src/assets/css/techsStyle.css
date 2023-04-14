@@ -13,6 +13,42 @@
   color: var(--black);
 }
 
-.tech-logo:hover {
-  color: var(--highmid);
+.css-logo:hover {
+  color: var(--css3);
+}
+
+.js-logo:hover {
+  color: var(--js);
+}
+
+.mongo-logo:hover {
+  color: var(--mongo);
+}
+
+.html-logo:hover {
+  color: var(--html5);
+}
+
+.node-logo:hover {
+  color: var(--node);
+}
+
+.react-logo:hover {
+  color: var(--react);
+}
+
+.apollo-logo:hover {
+  color: var(--apollo);
+}
+
+.graph-logo:hover {
+  color: var(--graph);
+}
+
+.handlebars-logo:hover {
+  color: var(--handlebars);
+}
+
+.sequelize-logo:hover {
+  color: var(--sequelize);
 }
