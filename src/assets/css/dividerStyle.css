@@ -1,12 +1,4 @@
 .divider {
-  /* height: 10vh;
-  background: linear-gradient(135deg, black 0%, black 50%, transparent 50%);
-  transform: translateY(-5vh) translateX(50vw); */
-  /* position: absolute;
-  top: 5vh;
-  left: 0;
-  transform-origin: top left;
-  transform: rotate(45deg) translateY(-5vh); */
   width: 0;
   height: 0;
   border-right: 100vw solid transparent;
