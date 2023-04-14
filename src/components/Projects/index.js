@@ -1,73 +1,54 @@
-import { useState } from "react";
-import Slider from "react-touch-drag-slider";
-import { Container, Button } from "react-bootstrap";
-import projects from "./projects";
-import "../../assets/css/projectsStyle.css";
+import React, { Component } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+// import projects from "./projects";
+import { dailySchedulePlanner, theBigQuiz, natParkTravelGuide, randomPasswordGenerator, weatherForecast, bostonStreetCuisine, taskSandwich } from './images';
+import "../../assets/css/projectsStyleSandbox.css";
+import { Container, Col, Row, Button } from "react-bootstrap";
 
-// Whatever you render out in the Slider will be draggable 'slides'
-export default function Projects() {
-  // state should start with the index you want to start the slide on
-  
-  const [index, setIndex] = useState(0);
 
-  const setFinishedIndex = (i) => {
-    console.log("finished dragging on slide", i);
-    setIndex(i);
-  };
 
-  const next = () => {
-    setIndex((index + 1) % projects.length);
-  };
-  
-  const previous = () => {
-    setIndex((index + projects.length - 1) % projects.length);
-  };
+export default class SimpleSlider extends Component {
+  render() {
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    };
+    return (
+      <div className="projects-card">
+        <h2>My Work</h2>
+        <Slider {...settings}>
 
-  return (
-    <>
-      <div id="projects" className="projects-card">
-        <h1 className="projects-card-heading">My Work</h1>
-        <Container className="projects-card-content">
-          <div className="slider-container">
-            <Button
-              onClick={previous}
-              left
-              // disabled={index === 0}
-              className="slider-button slider-button-left bg-dark"
-            >
-              〈
-            </Button>
-            <Button
-              onClick={next}
-              right
-              // disabled={index === projects.length - 1}
-              className="slider-button slider-button-right bg-dark"
-            >
-              〉
-            </Button>
-            <Slider
-              onSlideComplete={setFinishedIndex}
-              onSlideStart={(i) => {
-                console.clear();
-                console.log("started dragging on slide", i);
-              }}
-              activeIndex={index}
-              threshHold={100}
-              transition={0.2}
-              scaleOnDrag={true}
-            >
-              {projects.map(({ pic, title, description, url }, index) => (
-                <div className="project-container">
-                  <img src={pic} key={index} alt={title} />
-                  <h3>{title}</h3>
-                  <p>{description}</p>
-                  <a href={url} target="_blank" rel="noreferrer"><h4>Visit Site!</h4></a>
-                </div>
-              ))}
-            </Slider>
+          <div className="showcase-card">
+            <h3>Task Sandwich</h3>
+            <p>Technologies:</p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <a href="https://task-sandwich.herokuapp.com">Click Me</a>
           </div>
-        </Container>
+
+          <div className="showcase-card">
+            <h3>Boston Street Cuisine</h3>
+            <img src={bostonStreetCuisine} style={{height: "100px", width: "100px"}}></img>
+          </div>
+
+          <div className="showcase-card">
+            <h3>5</h3>
+          </div>
+
+          <div className="showcase-card">
+            <h3>6</h3>
+          </div>
+
+        </Slider>
       </div>
-    </>
-  );
+    );
+  }
 }

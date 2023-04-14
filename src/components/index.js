@@ -7,3 +7,4 @@ export { default as Map } from "./Map";
 export { default as Navbar } from "./Navbar/index2";
 export { default as Projects } from "./Projects/indexSandbox";
 export { default as Techs } from "./Techs";
+export { default as Divider } from "./Divider";
