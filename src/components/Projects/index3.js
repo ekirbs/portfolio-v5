@@ -24,11 +24,11 @@ export default class SimpleSlider extends Component {
           <Slider {...settings} className="projects-slider" >
 
             <div className="showcase-card">
-              <h3>5</h3>
+              <h3>MAXIMUM</h3>
             </div>
 
             <div className="showcase-card">
-              <h3>6</h3>
+              <h3>POWER!!</h3>
             </div>
 
           </Slider>

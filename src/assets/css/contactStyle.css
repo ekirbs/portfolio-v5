@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: var(--secondary);
+  background: var(--primary);
   padding: 2vw;
 }
 
