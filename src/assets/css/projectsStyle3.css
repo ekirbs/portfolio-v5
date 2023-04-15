@@ -11,6 +11,9 @@
 .projects-slider {
   height: 50vh;
   width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .projects-slider div {
@@ -20,6 +23,24 @@
 .showcase-card {
   display: flex !important;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-sliber button {
+  height: 25vh !important;
+}
+
+.custom-arrow {
+  width: 3vw;
+  height: 25vh;
+  background-color: #333;
+  color: #fff;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
   align-items: center;
   justify-content: center;
 }

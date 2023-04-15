@@ -11,7 +11,7 @@ export default function AboutHeader() {
   }, []);
 
   return (
-    <header id="about-header" className="about-header">
+    <header id="about" className="about-header">
       <h1 className="about-header-name" style={{ opacity: showText ? 1 : 0, transition: "opacity 7s" }}>About Me</h1>
     </header>
   );

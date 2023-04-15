@@ -7,7 +7,7 @@ export default function About() {
 
   return (
     <>
-      <div id="about" className="about-card">
+      <div className="about-card">
         <img src={profilePhoto} className="profile-photo" alt="Profile photo."></img>
       </div>
     </>

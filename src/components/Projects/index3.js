@@ -6,6 +6,7 @@ import projects from "./projectsArray";
 import { dailySchedulePlanner, theBigQuiz, natParkTravelGuide, randomPasswordGenerator, weatherForecast, bostonStreetCuisine, taskSandwich } from './images';
 import "../../assets/css/projectsStyle3.css";
 import { Container, Col, Row, Button } from "react-bootstrap";
+import ArrowButton from "./Arrow";
 
 
 
@@ -16,7 +17,9 @@ export default class SimpleSlider extends Component {
       infinite: true,
       speed: 500,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      prevArrow: <ArrowButton direction="prev" />,
+      nextArrow: <ArrowButton direction="next" />,
     };
     return (
       <>
