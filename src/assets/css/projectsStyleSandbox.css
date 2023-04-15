@@ -18,3 +18,7 @@
   align-items: center;
   justify-content: center;
 }
+
+.slick-arrow {
+  height: 100% !important;
+}

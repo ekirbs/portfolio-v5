@@ -19,7 +19,7 @@ export default class SimpleSlider extends Component {
       slidesToScroll: 1
     };
     return (
-      <div className="projects-card">
+      <div  id="projects" className="projects-card">
         <h2>My Work</h2>
         <Slider {...settings} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
           <div className="showcase-card">

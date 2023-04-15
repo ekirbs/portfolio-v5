@@ -1,5 +1,7 @@
 export { default as About } from "./About";
+export { default as AboutHeader } from "./AboutHeader";
 export { default as Contact } from "./Contact";
+export { default as ContactHeader } from "./ContactHeader";
 export { default as Footer } from "./Footer";
 export { default as Header } from "./Header/index2";
 export { default as Main } from "./Main";

@@ -1,0 +1,38 @@
+.about-header {
+  background: url(../../assets/images/puddle-stores.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  /* font-size: larger; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+}
+@media screen and (max-width: 900px) {
+  .about-header h1 {
+
+  }
+}
+
+.about-header-name {
+  padding-bottom: 5px;
+  border-bottom: 2px solid var(--white);
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-header-title {
+  padding-top: 5px;
+  border-top: 2px solid var(--white);
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

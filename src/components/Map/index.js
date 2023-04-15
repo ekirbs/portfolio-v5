@@ -49,7 +49,6 @@ export default function Map() {
             zoom={10}
             onLoad={onMapLoad}
             options={options}
-            // className="google-map"
           >
             <Marker position={center} />
           </GoogleMap>

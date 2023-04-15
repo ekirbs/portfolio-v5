@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   height: 50vh;
+  width: 50vh;
 }
 
 .map-card div {

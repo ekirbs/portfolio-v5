@@ -11,11 +11,11 @@ export default function Techs() {
       <div className="techs-card">
         <DiCss3 className="tech-logo css3-logo" title="CSS3" />
         <DiJavascript1 className="tech-logo js-logo" title="JavaScript" />
-        <DiMongodb className="tech-logo mongo-logo" title="MongoDB" />
+        <SiApollographql className="tech-logo apollo-logo" title="Apollo Servers" />
         <FaHtml5 className="tech-logo html5-logo" title="HTML5" />
         <FaNodeJs className="tech-logo node-logo" title="Node.js" />
         <FaReact className="tech-logo react-logo" title="React.js" />
-        <SiApollographql className="tech-logo apollo-logo" title="Apollo Servers" />
+        <DiMongodb className="tech-logo mongo-logo" title="MongoDB" />
         <SiGraphql className="tech-logo graph-logo" title="GraphQL" />
         <SiHandlebarsdotjs className="tech-logo handlebars-logo" title="Handlebars.js" />
         <SiSequelize className="tech-logo sequelize-logo" title="Sequelize" />

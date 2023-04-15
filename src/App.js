@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Header, Navbar, Divider, Projects, Techs, About, Main, Divider2, Divider3, Contact, Footer } from "./components";
+import { Header, Navbar, Divider, Projects, Techs, About, AboutHeader, Main, Divider2, Divider3, ContactHeader, Contact, Footer } from "./components";
 import { Music, Weather } from "./pages";
 import "./assets/css/globalStyle.css";
 
@@ -25,10 +25,12 @@ export default function App() {
       {/* <Divider /> */}
       <Projects />
       <Techs />
+      <AboutHeader />
       <About />
       {/* <Divider3 /> */}
       {renderPage()}
       {/* <Divider2 /> */}
+      <ContactHeader />
       <Contact />
       <Footer />
     </>
