@@ -12,7 +12,7 @@ export default function ContactHeader() {
 
   return (
     <header id="contact-header" className="contact-header">
-      <h1 className="contact-header-name" style={{ opacity: showText ? 1 : 0, transition: "opacity 7s" }}>Contact Info</h1>
+      <h1 className="contact-header-name" style={{ opacity: showText ? 1 : 0, transition: "opacity 7s" }}>Contact Me</h1>
     </header>
   );
 }

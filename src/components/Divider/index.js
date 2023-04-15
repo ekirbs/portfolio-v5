@@ -5,7 +5,11 @@ export default function Divider() {
 
   return (
     <>
-      <div className="divider"></div>
+    <div className="diagonal-section">
+      <div className="divider-content">
+        <h2 className="projects-header">My Work</h2>
+      </div>
+    </div>
     </>
   );
 }

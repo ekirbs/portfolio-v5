@@ -10,3 +10,5 @@ export { default as profilePhoto } from "./profile-photo.jpg";
 export { default as puddleShineGif } from "./puddle-shine.webp";
 export { default as puddleStoresGif } from "./puddle-stores.gif";
 export { default as rainGif } from "./rain.gif";
+export { default as ResumeImg } from "./resume-img.png";
+export { default as ResumeDownload } from "./resume-download.pdf";

@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { ResumeImg, ResumeDownload } from "../../assets/images";
-import "../../assets/css/resumeStyle.css";
+import "../../assets/css/resumeStyle2.css";
 
 export default function Resume() {
 
@@ -10,22 +10,6 @@ export default function Resume() {
       <div id="resume" className="resume-card">
         <h1 className="resume-card-heading">My Resume</h1>
         <div className="resume-top-content">
-          <Col>
-            <h2 className="resume-title">My Proficiencies:</h2>
-            <ul className="resume-prof-list">
-              <li>React.js</li>
-              <li>Express.js</li>
-              <li>MongoDB</li>
-              <li>Mongoose</li>
-              <li>Node.js</li>
-              <li>MySQL</li>
-              <li>Sequelize</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>And More!</li>
-            </ul>
-          </Col>
           <Col className="resume-download-card">
             <p>Click on the image to download my full resume!</p>
             <a href={ResumeDownload} download>

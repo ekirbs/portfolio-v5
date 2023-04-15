@@ -1,7 +1,7 @@
 import React from "react";
 import "../../assets/css/dividerStyle.css";
 
-export default function Divider2() {
+export default function Divider3() {
 
   return (
     <>

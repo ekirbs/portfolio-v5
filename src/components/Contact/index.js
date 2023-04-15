@@ -55,7 +55,6 @@ export default function Contact() {
   return (
     <>
       <div id="contact" className="contactCard">
-        <h1 className="contactCardHeading">Contact Me</h1>
         <Row className="contact-row">
           <Col>
             <Map />

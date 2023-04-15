@@ -1,66 +1,70 @@
 .techs-card {
-height: 25vh;
-width: 100%;
+/* width: 100vw !important; */
 background: var(--secondary);
 display: flex;
+flex-wrap: wrap;
+flex-direction: row;
 align-items: center;
 justify-content: space-around;
+padding: 2vh 0;
 }
 
 .tech-logo {
-height: 20vh;
-width: 20vh;
+height: 15vh;
+width: 15vh;
 color: var(--black);
+/* margin: 1vh; */
+/* outline: 2px solid var(--black); */
 }
 
 .css3-logo {
   color: var(--black);
-  animation: techs-animation1 5s infinite;
+  animation: techs-animation1 7s infinite;
 }
 
 .js-logo {
   color: var(--black);
-  animation: techs-animation2 5s infinite;
+  animation: techs-animation2 7s infinite;
 }
 
 .apollo-logo {
   color: var(--black);
-  animation: techs-animation3 5s infinite;
+  animation: techs-animation3 7s infinite;
 }
 
 .html5-logo {
   color: var(--black);
-  animation: techs-animation4 5s infinite;
+  animation: techs-animation4 7s infinite;
 }
 
 .node-logo {
   color: var(--black);
-  animation: techs-animation5 5s infinite;
+  animation: techs-animation5 7s infinite;
 }
 
 .react-logo {
   color: var(--black);
-  animation: techs-animation6 5s infinite;
+  animation: techs-animation6 7s infinite;
 }
 
 .mongo-logo {
   color: var(--black);
-  animation: techs-animation7 5s infinite;
+  animation: techs-animation7 7s infinite;
 }
 
 .graph-logo {
   color: var(--black);
-  animation: techs-animation8 5s infinite;
+  animation: techs-animation8 7s infinite;
 }
 
 .handlebars-logo {
   color: var(--black);
-  animation: techs-animation9 5s infinite;
+  animation: techs-animation9 7s infinite;
 }
 
 .sequelize-logo {
   color: var(--black);
-  animation: techs-animation10 5s infinite;
+  animation: techs-animation10 7s infinite;
 }
 
 @keyframes techs-animation1 {

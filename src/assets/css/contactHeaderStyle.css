@@ -21,6 +21,7 @@
 
 .contact-header-name {
   padding-bottom: 5px;
+  border-top: 2px solid var(--white);
   border-bottom: 2px solid var(--white);
   width: 300px;
   display: flex;
