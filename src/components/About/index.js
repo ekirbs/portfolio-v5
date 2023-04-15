@@ -1,4 +1,5 @@
 import React from "react";
+import { Row, Col, Container } from "react-bootstrap";
 import { profilePhoto } from "../../assets/images";
 import "../../assets/css/aboutStyle.css";
 

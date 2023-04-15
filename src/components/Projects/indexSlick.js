@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import { Container, Col, Row } from "react-bootstrap";
-import projects from "./projects";
+import projects from "./projectsArray";
 import "../../assets/css/projectsStyleSlick.css";
 
 export default class Projects extends Component {

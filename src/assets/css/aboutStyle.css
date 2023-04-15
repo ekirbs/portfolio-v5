@@ -1,10 +1,13 @@
 .about-card {
-  height: 25vh;
+  height: 75vh;
   background: var(--primary);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 10vh 5vw 20vh 5vw;
+  margin-bottom: -10vh;
+
 }
 
 .profile-photo {

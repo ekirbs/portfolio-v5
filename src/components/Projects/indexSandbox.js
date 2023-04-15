@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Divider } from "../";
-// import projects from "./projects";
+import projects from "./projectsArray";
 import { dailySchedulePlanner, theBigQuiz, natParkTravelGuide, randomPasswordGenerator, weatherForecast, bostonStreetCuisine, taskSandwich } from './images';
 import "../../assets/css/projectsStyleSandbox.css";
 import { Container, Col, Row, Button } from "react-bootstrap";
@@ -21,9 +21,7 @@ export default class SimpleSlider extends Component {
     };
     return (
       <>
-        <div  id="projects" className="projects-card">
-          {/* <Divider /> */}
-          {/* <h2>My Work</h2> */}
+        <div id="projects" className="projects-card">
           <Slider {...settings} style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
             <div className="showcase-card">
               <h3>Task Sandwich</h3>

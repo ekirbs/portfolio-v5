@@ -1,0 +1,34 @@
+.projects-card {
+  background: var(--primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20vh 0 10vh 0;
+  margin-top: -10vh;
+}
+
+.projects-slider {
+  height: 50vh;
+  width: 90%;
+}
+
+.projects-slider div {
+  height: 100%;
+}
+
+/* .projects-card div {
+  width: 90%;
+  height: 80%;
+}
+
+.showcase-card {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-arrow {
+  height: 100% !important;
+} */

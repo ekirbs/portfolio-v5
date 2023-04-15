@@ -8,7 +8,7 @@ export default function Resume() {
   return (
     <>
       <div id="resume" className="resume-card">
-        <h1 className="resume-card-heading">My Resume</h1>
+        {/* <h1 className="resume-card-heading">My Resume</h1> */}
         <div className="resume-top-content">
           <Col className="resume-download-card">
             <p>Click on the image to download my full resume!</p>
@@ -55,7 +55,7 @@ export default function Resume() {
               </Col>
               <Col>
                 <p>
-                  LEW Environmental Servises, Mar '21 - Jun '22
+                  LEW Environmental Servises, '21 - '22
                 </p>
               </Col>
             </Row>
@@ -67,7 +67,7 @@ export default function Resume() {
               </Col>
               <Col>
                 <p>
-                  Central Heights Fencing Club, Jun '10 - Apr '20
+                  Central Heights Fencing Club, '10 - '20
                 </p>
               </Col>
             </Row>
@@ -79,7 +79,7 @@ export default function Resume() {
               </Col>
               <Col>
                 <p>
-                  Long Hill Township School District, Sept '12 - Apr '20
+                  Long Hill Township School District, '12 - '20
                 </p>
               </Col>
             </Row>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Header, Navbar, Divider, Projects, Techs, About, AboutHeader, Resume, Main, Divider2, Divider3, ContactHeader, Contact, Footer } from "./components";
+import { Header, Navbar, Divider, Projects, Techs, About, AboutHeader, Resume, Main, ResumeDivider, Divider2, Divider3, ContactHeader, Contact, Footer } from "./components";
 import { Music, Weather } from "./pages";
 import "./assets/css/globalStyle.css";
 
@@ -28,6 +28,7 @@ export default function App() {
       <AboutHeader />
       <About />
       {/* <Divider3 /> */}
+      <ResumeDivider />
       <Resume />
       {/* {renderPage()} */}
       {/* <Divider2 /> */}
