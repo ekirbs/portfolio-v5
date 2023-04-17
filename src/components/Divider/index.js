@@ -1,4 +1,5 @@
 import React from "react";
+import "animate.css";
 import "../../assets/css/dividerStyle.css";
 
 export default function Divider() {

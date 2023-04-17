@@ -22,3 +22,10 @@
 .mapInput {
   margin: 1vh;
 }
+
+@media screen and (max-width: 500px) {
+  .map-card{
+    width: 90vw;
+    margin: 2.5vw;
+  }
+}

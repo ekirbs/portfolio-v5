@@ -1,4 +1,4 @@
-.contactCard {
+.contact-card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,21 +17,21 @@
   align-items: center;
 }
 
-.contactContainer {
+.contact-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.contactForm {
+.contact-form {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.contactArea {
+.contact-area {
   margin: 1vh;
   width: 400px;
 }
@@ -48,4 +48,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+  .contact-container {
+    width: 90vw;
+    margin: 2.5vw;
+  }
+
+  .contact-form {
+    width: 90vw;
+  }
+
+  .contact-area {
+    width: 90%;
+  }
+  
 }

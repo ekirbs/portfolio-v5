@@ -17,7 +17,7 @@ export default function Resume() {
             </a>
           </Col>
         </div>
-        <div className="resume-section-card">
+        {/* <div className="resume-section-card">
           <Col>
             <h3 className="resume-title">Summary</h3>
             <p className="resume-content">
@@ -31,7 +31,7 @@ export default function Resume() {
               resolution, and creative problem solving.
             </p>
           </Col>
-        </div>
+        </div> */}
         <div className="resume-section-card">
           <Col>
             <h3 className="resume-title">Experience</h3>

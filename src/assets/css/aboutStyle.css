@@ -1,11 +1,11 @@
 .about-card {
-  height: 75vh;
+  /* height: 75vh; */
   background: var(--primary);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10vh 5vw 20vh 5vw;
+  padding: 10vh 5vw 10vh 5vw;
   margin-bottom: -10vh;
 
 }
@@ -15,4 +15,22 @@
   width: auto;
   border: 1px solid var(--highmid);
   border-radius: 5%;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5vh;
+}
+
+.about-content {
+  padding: 5vh;
+  width: 45%;
+}
+
+@media screen and (max-width: 500px) {
+  .about-section {
+    flex-direction: column;
+  }
 }

@@ -54,13 +54,13 @@ export default function Contact() {
 
   return (
     <>
-      <div className="contactCard">
+      <div className="contact-card">
         <Row className="contact-row">
           <Col>
             <Map />
           </Col>
           <Col>
-            <div className="contactContainer">
+            <div className="contact-container">
               {submitted ? <h2 className="contactCardGreeting">Thank you {formInput.from_name}!</h2> :          
                 <>
                   <div className="contactInfoContainer">
@@ -68,14 +68,14 @@ export default function Contact() {
                       Send me a message and I'll get back to you as soon as I can.
                     </p>
                   </div>
-                  <form className="contactForm">
+                  <form className="contact-form">
                     <input
                       value={formInput.from_name}
                       name="name"
                       onChange={handleInputChange}
                       type="text"
                       placeholder="Your Name"
-                      className="contactArea contactNameArea"
+                      className="contact-area contactNameArea"
                     />
                     <input
                       value={formInput.reply_to}
@@ -83,7 +83,7 @@ export default function Contact() {
                       onChange={handleInputChange}
                       type="email"
                       placeholder="Your Email"
-                      className="contactArea contactEmailArea"
+                      className="contact-area contactEmailArea"
                     />
                     <textarea
                       value={formInput.message}
@@ -91,7 +91,7 @@ export default function Contact() {
                       onChange={handleInputChange}
                       type="textArea"
                       placeholder="Text Area"
-                      className="contactArea contactTextArea"
+                      className="contact-area contactTextArea"
                     />
                     <button
                       type="button"

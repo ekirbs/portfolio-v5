@@ -1,5 +1,7 @@
 import { dailySchedulePlanner, theBigQuiz, natParkTravelGuide, randomPasswordGenerator, weatherForecast, bostonStreetCuisine, taskSandwich } from './images';
-
+import { FaHtml5, FaReact, FaNodeJs } from "react-icons/fa";
+import { DiCss3, DiJavascript1, DiMongodb } from "react-icons/di";
+import { SiSequelize, SiGraphql, SiApollographql, SiHandlebarsdotjs, SiExpress, SiJquery } from "react-icons/si";
 
 const Projects = [
   {
@@ -9,9 +11,15 @@ const Projects = [
     "github": "https://github.com/ekirbs/portfolio-v4",
     "description": "A task-management system with built in rewards system.",
     "technologies": [
-      "HTML",
-      "CSS",
-      "JavaScript"
+      <FaReact className="tech-icon react-tech-icon" />,
+      <FaNodeJs className="tech-icon node-tech-icon" />,
+      <DiMongodb className="tech-icon mongo-tech-icon" />,
+      <SiGraphql className="tech-icon graph-tech-icon" />,
+      <SiApollographql className="tech-icon apollo-tech-icon" />,
+      <SiExpress className="tech-icon ex-tech-icon" />,
+      <FaHtml5 className="tech-icon html-tech-icon" />,
+      <DiCss3 className="tech-icon css-tech-icon" />,
+      <DiJavascript1 className="tech-icon js-tech-icon" />
     ]
   },
   {
@@ -21,9 +29,13 @@ const Projects = [
     "github": "https://github.com/ekirbs/portfolio-v4",
     "description": "Locate street food vendors in Boston. Find out information about them and discuss with other users.",
     "technologies": [
-      "HTML",
-      "CSS",
-      "JavaScript"
+      <h6 className="hbrs-tech-icon"><SiHandlebarsdotjs className="tech-icon hbrs-tech-icon" />Handlebars</h6>,
+      <h6 className="node-tech-icon"><FaNodeJs className="tech-icon node-tech-icon" />Node.js</h6>,
+      <h6 className="jq-tech-icon"><SiJquery className="tech-icon" />JQuery</h6>,
+      <h6 className="ex-tech-icon"><SiExpress className="tech-icon" />Express.js</h6>,
+      <h6 className="html-tech-icon"><FaHtml5 className="tech-icon" />HTML5</h6>,
+      <h6 className="css-tech-icon"><DiCss3 className="tech-icon" />CSS3</h6>,
+      <h6 className="js-tech-icon"><DiJavascript1 className="tech-icon" />JavaScript</h6>
     ]
   },
   {

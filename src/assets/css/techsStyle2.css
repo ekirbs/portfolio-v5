@@ -13,7 +13,7 @@ padding: 2vh 0;
 height: 15vh;
 width: 15vh;
 color: var(--black);
-/* margin: 1vh; */
+margin: .5vh 0;
 /* outline: 2px solid var(--black); */
 }
 
@@ -32,53 +32,63 @@ color: var(--black);
   animation: techs-animation3 7s infinite;
 }
 
-.html5-logo {
+.jquery-logo {
   color: var(--black);
   animation: techs-animation4 7s infinite;
 }
 
-.node-logo {
+.html5-logo {
   color: var(--black);
   animation: techs-animation5 7s infinite;
 }
 
-.react-logo {
+.node-logo {
   color: var(--black);
   animation: techs-animation6 7s infinite;
 }
 
-.mongo-logo {
+.react-logo {
   color: var(--black);
   animation: techs-animation7 7s infinite;
 }
 
-.graph-logo {
+.mongo-logo {
   color: var(--black);
   animation: techs-animation8 7s infinite;
 }
 
-.handlebars-logo {
+.graph-logo {
   color: var(--black);
   animation: techs-animation9 7s infinite;
 }
 
-.sequelize-logo {
+.express-logo {
   color: var(--black);
   animation: techs-animation10 7s infinite;
+}
+
+.handlebars-logo {
+  color: var(--black);
+  animation: techs-animation11 7s infinite;
+}
+
+.sequelize-logo {
+  color: var(--black);
+  animation: techs-animation12 7s infinite;
 }
 
 @keyframes techs-animation1 {
   0%, 100% {
     color: var(--black);
-    text-shadow: 0px 0px 0px var(--black);
+    /* text-shadow: 0px 0px 0px var(--black); */
   }
   10% {
     color: var(--css3);
-    text-shadow: 2px 2px 4px var(--black);
+    /* text-shadow: 2px 2px 4px var(--black); */
   }
   20% {
     color: var(--black);
-    text-shadow: 0px 0px 0px var(--black);
+    /* text-shadow: 0px 0px 0px var(--black); */
   }
 }
 
@@ -86,13 +96,13 @@ color: var(--black);
   0%, 100% {
     color: var(--black);
   }
-  10% {
+  8.33% {
     color: var(--black);
   }
-  20% {
+  16.66% {
     color: var(--js);
   }
-  30% {
+  24.99% {
     color: var(--black);
   }
 }
@@ -101,13 +111,13 @@ color: var(--black);
   0%, 100% {
     color: var(--black);
   }
-  20% {
+  16.66% {
     color: var(--black);
   }
-  30% {
+  24.99% {
     color: var(--apollo);
   }
-  40% {
+  33.33% {
     color: var(--black);
   }
 }
@@ -116,13 +126,13 @@ color: var(--black);
   0%, 100% {
     color: var(--black);
   }
-  30% {
+  24.99% {
     color: var(--black);
   }
-  40% {
-    color: var(--html5);
+  33.33% {
+    color: var(--jquery);
   }
-  50% {
+  41.66% {
     color: var(--black);
   }
 }
@@ -131,13 +141,13 @@ color: var(--black);
   0%, 100% {
     color: var(--black);
   }
-  40% {
+  33.33% {
     color: var(--black);
   }
-  50% {
-    color: var(--node);
+  41.66% {
+    color: var(--html5);
   }
-  60% {
+  49.99% {
     color: var(--black);
   }
 }
@@ -146,13 +156,13 @@ color: var(--black);
   0%, 100% {
     color: var(--black);
   }
-  50% {
+  41.66% {
     color: var(--black);
   }
-  60% {
-    color: var(--react);
+  49.99% {
+    color: var(--node);
   }
-  70% {
+  58.33% {
     color: var(--black);
   }
 }
@@ -161,13 +171,13 @@ color: var(--black);
   0%, 100% {
     color: var(--black);
   }
-  60% {
+  49.99% {
     color: var(--black);
   }
-  70% {
-    color: var(--mongo);
+  58.33% {
+    color: var(--react);
   }
-  80% {
+  66.66% {
     color: var(--black);
   }
 }
@@ -176,13 +186,13 @@ color: var(--black);
   0%, 100% {
     color: var(--black);
   }
-  70% {
+  58.33% {
     color: var(--black);
   }
-  80% {
-    color: var(--graph);
+  66.66% {
+    color: var(--mongo);
   }
-  90% {
+  75% {
     color: var(--black);
   }
 }
@@ -191,13 +201,13 @@ color: var(--black);
   0%, 100% {
     color: var(--black);
   }
-  80% {
+  66.66% {
     color: var(--black);
   }
-  90% {
-    color: var(--handlebars);
+  75% {
+    color: var(--graph);
   }
-  100% {
+  83.33% {
     color: var(--black);
   }
 }
@@ -206,13 +216,43 @@ color: var(--black);
   0%, 100% {
     color: var(--black);
   }
-  90% {
+  75% {
+    color: var(--black);
+  }
+  83.33% {
+    color: var(--express);
+  }
+  91.66% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation11 {
+  0%, 100% {
+    color: var(--black);
+  }
+  83.33% {
+    color: var(--black);
+  }
+  91.66% {
+    color: var(--handlebars);
+  }
+  100% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation12 {
+  0%, 100% {
+    color: var(--black);
+  }
+  91.66% {
     color: var(--black);
   }
   100% {
     color: var(--sequelize);
   }
-  110% {
+  108.33% {
     color: var(--black);
   }
 }
