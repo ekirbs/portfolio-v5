@@ -1,4 +1,4 @@
-![](./public/assets/images/ekirbs-portfolio-banner.png)
+![](./public/assets/images/readme-header-image.png)
 
 ---
 >## Description
@@ -32,15 +32,12 @@ N/A.  This portfolio requires no installation. Just enjoy!
 ---
 >## Usage
 
-The navigation bar provides links to different pages:
-  - **Portfolio** - carousel of various projects I have built.  It is a grab-and-drag component.
-  - **Resume** - brief summary of my skills and history, and a button to download a pdf version of my full resume.
-  - **Contact** - my professional contact information.
-  - **Fun Stuff** - dropdown menu of various fun components.
+The navigation bar can always be found in the top right corner of the screen.  Just click on the menu button and a dropdown list provides links to different sections:
 
-The navigation bar will collapse into a button on small screens, but with all the same options.
-
-Lastly, the Footer has links to my different professional accounts including: LinkedIn, GitHub, and a professional Instagram page.
+  - **Home** - back to the top we go!
+  - **My Work** - a showcase of my skills and a display of the various technologies I've used so far.
+  - **About Me** - learn an little about me, where I've learned my skills, and what I've done in the past with a downloadable pdf of my resume.
+  - **Contact** - information on how where and how to find me, and a footer with some additional personal links like Instagram, LinkedIn, and GitHub.
 
 <br>
 
@@ -62,13 +59,7 @@ Lastly, the Footer has links to my different professional accounts including: Li
 ---
 >## Credits
 
-A special thanks to the developers of the components I've utilized on this site:
-
-Link: [React Touch Drag Slider](https://www.npmjs.com/package/react-touch-drag-slider 'Touch and drag slider carousel component for React.') - Mobile Carousel by bushblade
-
-Link: [Lofify](https://github.com/rahulpal16/lofify 'A web music player to listen to chill lofi songs.') - Music Player by rahulpal16
-
-Link: [React Weather App](https://github.com/alexkowsik/react-weather-app 'A Weather Forecast App using the OpenWeatherMap API.') - Weather Forecast by alexkowsik
+A special thanks to the developers of the packages I've utilized on this site through Node Package Manager(**npm**):
 
 Link: [React Google Maps API](https://www.npmjs.com/package/@react-google-maps/api 'A google maps package using the Google Maps API.') - Google Maps by JustFly1984
 
@@ -98,8 +89,9 @@ This application has an MIT license.  This is a short and simple permissive lice
 ---
 >## Features
 
-- Portfolio - some of the projects I've built
-- Resume - my professional resume
+- My Work - some of the projects I've built, displayed in a component I built
+- Technologies - some of the technologies I've worked with
+- About Me - a brief look at the man, and his professional resume
 - Contact Me - my business contact
 - Fun Stuff:
   - Music Player - listen to some tunes
