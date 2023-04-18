@@ -4,7 +4,7 @@
   "version": "5.1.0",
   "description": "The portfolio of Eric Kirberger || Full Stack Web Developer.",
   "license": "MIT",
-  "homepage": "https://github.com/ekirbs/portfolio-v5",
+  "homepage": "https://ekirbs.github.io/portfolio-v5",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
