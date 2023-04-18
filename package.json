@@ -60,10 +60,6 @@
       "last 1 safari version"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ekirbs/portfolio-v5.git"
-  },
   "keywords": [
     "web developer",
     "React",
@@ -71,9 +67,6 @@
     "JavaScript",
     "CSS"
   ],
-  "bugs": {
-    "url": "https://github.com/ekirbs/portfolio-v5/issues"
-  },
   "devDependencies": {
     "nodemon": "^2.0.20"
   }
