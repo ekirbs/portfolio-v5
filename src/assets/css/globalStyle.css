@@ -11,6 +11,7 @@
   --white: #ffffff;
   --black: #000000;
   --silver: #c0c0c0;
+
   --weatherBlue: #113555;
   --weatherTitle: #365a7a;
   --highlight: #ffc107;
@@ -21,7 +22,6 @@
   --cydark: #00bcd4;
   --cydarker: #00acc1;
   --turq: #69dcf3;
-
 
   --react: #00d8ff;
   --css3: #0074d9;
@@ -49,7 +49,6 @@
   --axios: #35495e;
   --vscode: #007acc;
 
-  
   --error: rgb(228, 46, 1);
   --border-radius: 5%;
 }
