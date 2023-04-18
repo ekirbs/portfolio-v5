@@ -38,10 +38,13 @@ export default class SimpleSlider extends Component {
 
             {projects.map(({  pic, title, description, technologies, deploy, github }, index) => (
               <div className="showcase-card">
-                <h3>{title}</h3>
+                <h3 className="showcase-main-title">{title}</h3>
                 <div className="showcase-upper-row">
                   <div className="showcase-pic">
                     <img src={pic} key={index} alt={title} />
+                    <div className="showcase-desc">
+                      <p>{description}</p>
+                    </div>
                   </div>
                   <div className="tech-list-container">
                     <ul 
@@ -66,9 +69,6 @@ export default class SimpleSlider extends Component {
                     <a href={deploy} target="_blank" rel="noreferrer"><h4>Deployed App</h4></a>
                     <a href={github} target="_blank" rel="noreferrer"><h4>GitHub Repo</h4></a>
                   {/* </div> */}
-                  {/* <div className="showcase-desc">
-                    <p>{description}</p>
-                  </div> */}
                 </div>
               </div>
             ))}

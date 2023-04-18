@@ -32,6 +32,10 @@
   /* border: 2px solid var(--black); */
 }
 
+.showcase-main-title {
+  text-decoration: underline;
+}
+
 /* .slick-slider button {
   height: 25vh !important;
 } */
@@ -91,6 +95,7 @@
 }
 
 .showcase-lower-row a:hover {
+  color: var(--black);
   transform: scale(1.1);
   background-color: var(--secondary);
 }
@@ -100,6 +105,11 @@
   width: auto; */
   height: auto !important;
   width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+.showcase-desc {
+  margin-top: 2vh;
 }
 
 .showcase-pic img {
@@ -181,6 +191,10 @@
 
   .showcase-upper-row {
     flex-direction: column;
+  }
+
+  .showcase-desc {
+    display: none;
   }
 
   .showcase-list-title {

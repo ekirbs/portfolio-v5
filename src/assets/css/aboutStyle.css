@@ -33,4 +33,9 @@
   .about-section {
     flex-direction: column;
   }
+
+  .about-content {
+    padding: 5vh 0;
+    width: 90%;
+  }
 }
