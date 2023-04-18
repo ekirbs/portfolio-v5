@@ -21,6 +21,8 @@
   --cydark: #00bcd4;
   --cydarker: #00acc1;
   --turq: #69dcf3;
+
+
   --react: #00d8ff;
   --css3: #0074d9;
   --js: #f7df1e;
@@ -33,7 +35,21 @@
   --sequelize: #00a5db;
   --handlebars: #ff7b00;
   --express: #ffffff;
-  --handlebars: #ff7b00;
+  --bootstrap: #563d7c;
+  --insomnia: #0b163d;
+  --passport: #2c3e50;
+  --heroku: #6762a6;
+  --github: #6F42C1;
+  --msoffice: #2D3952;
+  --npm: #cb3837;
+  --mysql: #00758f;
+  --materialize: #26a69a;
+  --nodemon: #76d04b;
+  --json: #ffffff;
+  --axios: #35495e;
+  --vscode: #007acc;
+
+  
   --error: rgb(228, 46, 1);
   --border-radius: 5%;
 }

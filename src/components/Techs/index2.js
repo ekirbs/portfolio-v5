@@ -1,7 +1,9 @@
 import React from "react";
-import { FaHtml5, FaReact, FaNodeJs } from "react-icons/fa";
-import { DiCss3, DiJavascript1, DiMongodb } from "react-icons/di";
-import { SiSequelize, SiGraphql, SiApollographql, SiHandlebarsdotjs, SiExpress, SiJquery } from "react-icons/si";
+import { FaHtml5, FaReact, FaNodeJs, FaNpm } from "react-icons/fa";
+import { DiCss3, DiJavascript1, DiMongodb, DiBootstrap, DiMaterializecss } from "react-icons/di";
+import { SiSequelize, SiGraphql, SiApollographql, SiHandlebarsdotjs, SiExpress, SiJquery, SiAxios, SiInsomnia, SiPassport, SiHeroku, SiGithub, SiMicrosoftoffice, SiNodemon, SiJson } from "react-icons/si";
+import { GrMysql } from "react-icons/gr";
+import { TbBrandVscode } from "react-icons/tb"
 import "../../assets/css/techsStyle2.css";
 
 export default function Techs() {
@@ -21,6 +23,20 @@ export default function Techs() {
         <SiExpress className="tech-logo express-logo" title="Express.js" />
         <SiHandlebarsdotjs className="tech-logo handlebars-logo" title="Handlebars.js" />
         <SiSequelize className="tech-logo sequelize-logo" title="Sequelize" />
+
+        <DiBootstrap className="tech-logo bootstrap-logo" title="Bootstrap" />
+        <SiInsomnia className="tech-logo insomnia-logo" title="Insomnia" />
+        <SiPassport className="tech-logo passport-logo" title="Passport.js" />
+        <SiHeroku className="tech-logo heroku-logo" title="Heroku" />
+        <SiGithub className="tech-logo github-logo" title="GitHub" />
+        <SiMicrosoftoffice className="tech-logo msoffice-logo" title="Microsoft Office" />
+        <FaNpm className="tech-logo npm-logo" title="NPM" />
+        <GrMysql className="tech-logo mysql-logo" title="MySQL" />
+        <DiMaterializecss className="tech-logo materialize-logo" title="Materialize CSS" />
+        <SiNodemon className="tech-logo nodemon-logo" title="Nodemon" />
+        <SiJson className="tech-logo json-logo" title="JSON" />
+        <SiAxios className="tech-logo axios-logo" title="Axios" />
+        <TbBrandVscode className="tech-logo vscode-logo" title="VS Code" />
       </div>
     </>
   );

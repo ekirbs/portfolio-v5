@@ -10,8 +10,10 @@ padding: 2vh 0;
 }
 
 .tech-logo {
-height: 15vh;
-width: 15vh;
+  height: 12vh;
+  width: 12vh;
+/* height: 15vh;
+width: 15vh; */
 color: var(--black);
 margin: .5vh 0;
 /* outline: 2px solid var(--black); */
@@ -19,62 +21,127 @@ margin: .5vh 0;
 
 .css3-logo {
   color: var(--black);
-  animation: techs-animation1 7s infinite;
+  animation: techs-animation1 12s infinite;
 }
 
 .js-logo {
   color: var(--black);
-  animation: techs-animation2 7s infinite;
+  animation: techs-animation2 12s infinite;
 }
 
 .apollo-logo {
   color: var(--black);
-  animation: techs-animation3 7s infinite;
+  animation: techs-animation3 12s infinite;
 }
 
 .jquery-logo {
   color: var(--black);
-  animation: techs-animation4 7s infinite;
+  animation: techs-animation4 12s infinite;
 }
 
 .html5-logo {
   color: var(--black);
-  animation: techs-animation5 7s infinite;
+  animation: techs-animation5 12s infinite;
 }
 
 .node-logo {
   color: var(--black);
-  animation: techs-animation6 7s infinite;
+  animation: techs-animation6 12s infinite;
 }
 
 .react-logo {
   color: var(--black);
-  animation: techs-animation7 7s infinite;
+  animation: techs-animation7 12s infinite;
 }
 
 .mongo-logo {
   color: var(--black);
-  animation: techs-animation8 7s infinite;
+  animation: techs-animation8 12s infinite;
 }
 
 .graph-logo {
   color: var(--black);
-  animation: techs-animation9 7s infinite;
+  animation: techs-animation9 12s infinite;
 }
 
 .express-logo {
   color: var(--black);
-  animation: techs-animation10 7s infinite;
+  animation: techs-animation10 12s infinite;
 }
 
 .handlebars-logo {
   color: var(--black);
-  animation: techs-animation11 7s infinite;
+  animation: techs-animation11 12s infinite;
 }
 
 .sequelize-logo {
   color: var(--black);
-  animation: techs-animation12 7s infinite;
+  animation: techs-animation12 12s infinite;
+}
+
+.bootstrap-logo {
+  color: var(--black);
+  animation: techs-animation13 12s infinite;
+}
+
+.insomnia-logo {
+  color: var(--black);
+  animation: techs-animation14 12s infinite;
+}
+
+.passport-logo {
+  color: var(--black);
+  animation: techs-animation15 12s infinite;
+}
+
+.heroku-logo {
+  color: var(--black);
+  animation: techs-animation16 12s infinite;
+}
+
+.github-logo {
+  color: var(--black);
+  animation: techs-animation17 12s infinite;
+}
+
+.msoffice-logo {
+  color: var(--black);
+  animation: techs-animation18 12s infinite;
+}
+
+.npm-logo {
+  color: var(--black);
+  animation: techs-animation19 12s infinite;
+}
+
+.mysql-logo {
+  color: var(--black);
+  animation: techs-animation20 12s infinite;
+}
+
+.materialize-logo {
+  color: var(--black);
+  animation: techs-animation21 12s infinite;
+}
+
+.nodemon-logo {
+  color: var(--black);
+  animation: techs-animation22 12s infinite;
+}
+
+.json-logo {
+  color: var(--black);
+  animation: techs-animation23 12s infinite;
+}
+
+.axios-logo {
+  color: var(--black);
+  animation: techs-animation24 12s infinite;
+}
+
+.vscode-logo {
+  color: var(--black);
+  animation: techs-animation25 12s infinite;
 }
 
 @keyframes techs-animation1 {
@@ -82,11 +149,11 @@ margin: .5vh 0;
     color: var(--black);
     /* text-shadow: 0px 0px 0px var(--black); */
   }
-  10% {
+  4% {
     color: var(--css3);
     /* text-shadow: 2px 2px 4px var(--black); */
   }
-  20% {
+  8% {
     color: var(--black);
     /* text-shadow: 0px 0px 0px var(--black); */
   }
@@ -96,13 +163,13 @@ margin: .5vh 0;
   0%, 100% {
     color: var(--black);
   }
-  8.33% {
+  4% {
     color: var(--black);
   }
-  16.66% {
+  8% {
     color: var(--js);
   }
-  24.99% {
+  12% {
     color: var(--black);
   }
 }
@@ -111,13 +178,13 @@ margin: .5vh 0;
   0%, 100% {
     color: var(--black);
   }
-  16.66% {
+  8% {
     color: var(--black);
   }
-  24.99% {
+  12% {
     color: var(--apollo);
   }
-  33.33% {
+  16% {
     color: var(--black);
   }
 }
@@ -126,13 +193,13 @@ margin: .5vh 0;
   0%, 100% {
     color: var(--black);
   }
-  24.99% {
+  12% {
     color: var(--black);
   }
-  33.33% {
+  16% {
     color: var(--jquery);
   }
-  41.66% {
+  20% {
     color: var(--black);
   }
 }
@@ -141,13 +208,13 @@ margin: .5vh 0;
   0%, 100% {
     color: var(--black);
   }
-  33.33% {
+  16% {
     color: var(--black);
   }
-  41.66% {
+  20% {
     color: var(--html5);
   }
-  49.99% {
+  24% {
     color: var(--black);
   }
 }
@@ -156,13 +223,13 @@ margin: .5vh 0;
   0%, 100% {
     color: var(--black);
   }
-  41.66% {
+  20% {
     color: var(--black);
   }
-  49.99% {
+  24% {
     color: var(--node);
   }
-  58.33% {
+  28% {
     color: var(--black);
   }
 }
@@ -171,13 +238,13 @@ margin: .5vh 0;
   0%, 100% {
     color: var(--black);
   }
-  49.99% {
+  24% {
     color: var(--black);
   }
-  58.33% {
+  28% {
     color: var(--react);
   }
-  66.66% {
+  32% {
     color: var(--black);
   }
 }
@@ -186,13 +253,13 @@ margin: .5vh 0;
   0%, 100% {
     color: var(--black);
   }
-  58.33% {
+  28% {
     color: var(--black);
   }
-  66.66% {
+  32% {
     color: var(--mongo);
   }
-  75% {
+  36% {
     color: var(--black);
   }
 }
@@ -201,13 +268,13 @@ margin: .5vh 0;
   0%, 100% {
     color: var(--black);
   }
-  66.66% {
+  32% {
     color: var(--black);
   }
-  75% {
+  36% {
     color: var(--graph);
   }
-  83.33% {
+  40% {
     color: var(--black);
   }
 }
@@ -216,13 +283,13 @@ margin: .5vh 0;
   0%, 100% {
     color: var(--black);
   }
-  75% {
+  36% {
     color: var(--black);
   }
-  83.33% {
+  40% {
     color: var(--express);
   }
-  91.66% {
+  44% {
     color: var(--black);
   }
 }
@@ -231,13 +298,13 @@ margin: .5vh 0;
   0%, 100% {
     color: var(--black);
   }
-  83.33% {
+  40% {
     color: var(--black);
   }
-  91.66% {
+  44% {
     color: var(--handlebars);
   }
-  100% {
+  48% {
     color: var(--black);
   }
 }
@@ -246,13 +313,208 @@ margin: .5vh 0;
   0%, 100% {
     color: var(--black);
   }
-  91.66% {
+  44% {
+    color: var(--black);
+  }
+  48% {
+    color: var(--sequelize);
+  }
+  52% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation13 {
+  0%, 100% {
+    color: var(--black);
+  }
+  48% {
+    color: var(--black);
+  }
+  52% {
+    color: var(--bootstrap);
+  }
+  56% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation14 {
+  0%, 100% {
+    color: var(--black);
+  }
+  52% {
+    color: var(--black);
+  }
+  56% {
+    color: var(--insomnia);
+  }
+  60% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation15 {
+  0%, 100% {
+    color: var(--black);
+  }
+  56% {
+    color: var(--black);
+  }
+  60% {
+    color: var(--passport);
+  }
+  64% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation16 {
+  0%, 100% {
+    color: var(--black);
+  }
+  60% {
+    color: var(--black);
+  }
+  64% {
+    color: var(--heroku);
+  }
+  68% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation17 {
+  0%, 100% {
+    color: var(--black);
+  }
+  64% {
+    color: var(--black);
+  }
+  68% {
+    color: var(--github);
+  }
+  72% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation18 {
+  0%, 100% {
+    color: var(--black);
+  }
+  68% {
+    color: var(--black);
+  }
+  72% {
+    color: var(--msoffice);
+  }
+  76% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation19 {
+  0%, 100% {
+    color: var(--black);
+  }
+  72% {
+    color: var(--black);
+  }
+  76% {
+    color: var(--npm);
+  }
+  80% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation20 {
+  0%, 100% {
+    color: var(--black);
+  }
+  76% {
+    color: var(--black);
+  }
+  80% {
+    color: var(--mysql);
+  }
+  84% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation21 {
+  0%, 100% {
+    color: var(--black);
+  }
+  80% {
+    color: var(--black);
+  }
+  84% {
+    color: var(--materialize);
+  }
+  88% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation22 {
+  0%, 100% {
+    color: var(--black);
+  }
+  84% {
+    color: var(--black);
+  }
+  88% {
+    color: var(--nodemon);
+  }
+  92% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation23 {
+  0%, 100% {
+    color: var(--black);
+  }
+  88% {
+    color: var(--black);
+  }
+  92% {
+    color: var(--json);
+  }
+  96% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation24 {
+  0%, 100% {
+    color: var(--black);
+  }
+  92% {
+    color: var(--black);
+  }
+  96% {
+    color: var(--axios);
+  }
+  100% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation25 {
+  0%, 100% {
+    color: var(--black);
+  }
+  96% {
     color: var(--black);
   }
   100% {
-    color: var(--sequelize);
+    color: var(--vscode);
   }
-  108.33% {
+  104% {
     color: var(--black);
   }
 }

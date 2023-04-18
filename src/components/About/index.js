@@ -8,7 +8,7 @@ export default function About() {
   return (
     <>
       <div className="about-card">
-        <h3>Hi!</h3>
+        {/* <h3>Hi!</h3> */}
         <div className="about-section">
           <p className="about-content">
             I am a Web Developer and graduate of the Rutgers University
