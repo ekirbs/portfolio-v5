@@ -10,13 +10,13 @@ export default function About() {
       <div className="about-card">
         {/* <h3>Hi!</h3> */}
         <div className="about-section">
-          <p className="about-content">
+          <p className="about-content alva-display">
             I am a Web Developer and graduate of the Rutgers University
             Full-Stack Web Development Program. I excel at front-end development
             using technologies like React.js, Node.js, and more.
           </p>
           <img src={profilePhoto} className="profile-photo" alt="Profile photo."></img>
-          <p className="about-content">
+          <p className="about-content alva-display">
             My background in education and coaching means I have a strong
             understanding of teamwork, management, communication, conflict
             resolution, and creative problem solving.
