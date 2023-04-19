@@ -1,5 +1,6 @@
 .header {
-  background: url(../../assets/images/puddle-shine.webp) no-repeat center center fixed;
+  background-image: url(../../assets/images/puddle-shine.gif);
+  /* background-image: url(../../assets/images/puddle-shine.webp) no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,11 +15,12 @@
   color: var(--white);
   margin-bottom: -10vh;
 }
-@media screen and (max-width: 900px) {
+
+/* @media screen and (max-width: 900px) {
   .header h1 {
 
   }
-}
+} */
 
 .header-name {
   padding-bottom: 5px;
