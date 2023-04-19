@@ -48,17 +48,19 @@
 }
 
 .custom-arrow {
-  width: 3vw;
+  width: 15px;
   height: 25vh;
-  background-color: #333;
-  color: #fff;
+  background-color: var(--black);
+  color: var(--turq);
   font-size: 2rem;
-  border: none;
+  /* border: none; */
   outline: none;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
+  outline: 1px solid var(--white);
+  padding: 1px;
 }
 
 .showcase-upper-row {
@@ -215,14 +217,34 @@
 
   .showcase-list {
     margin: 5vh 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row !important;
     justify-content: space-between !important;
     list-style-type: none;
     padding-left: 0 !important;
-    width: 100% !important;
+    width: 100%;
   }
 
   .tech-icon {
-    height: 6vh !important;
+    height: 6vh;
+  }
+
+  .showcase-lower-row a {
+    padding: 1vh 5vh;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .showcase-pic {
+    width: 100%;
+  }
+
+  .showcase-lower-row {
+    flex-direction: column;
+  }
+
+  .showcase-lower-row a {
+    margin-top: 2vh;
   }
 }

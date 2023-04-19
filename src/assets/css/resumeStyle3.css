@@ -29,7 +29,6 @@
   margin: 2vh;
   padding: 2vh 2vh 6% 2vh;
   width: 80vw;
-  
 }
 
 .resume-img {
@@ -61,4 +60,10 @@
 .chfc-title {
   color: var(--light);
   text-shadow: 1px 1px 2px var(--black);
+}
+
+@media screen and (max-width: 800px) {
+  .resume-section-card {
+    width: 94vw;
+  }
 }
