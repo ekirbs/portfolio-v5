@@ -60,6 +60,8 @@
   align-items: center;
   justify-content: center;
   outline: 1px solid var(--white);
+  /* border: 1px solid var(--white); */
+  border-radius: 5%;
   padding: 1px;
 }
 
@@ -237,7 +239,7 @@
 
 @media screen and (max-width: 800px) {
   .showcase-pic {
-    width: 100%;
+    width: 110%;
   }
 
   .showcase-lower-row {
