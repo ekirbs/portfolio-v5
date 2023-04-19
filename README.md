@@ -41,7 +41,7 @@ The navigation bar can always be found in the top right corner of the screen.  J
 
 <br>
 
-### ***Current Fun Stuff:***
+### ***Ex-Current Fun Stuff (none of this is here, section to be fixed soon!):***
 
 | Title            | Description | Image                                                                   |
 | :--------------- | :---------: | ----------------------------------------------------------------------: |
@@ -90,11 +90,11 @@ This application has an MIT license.  This is a short and simple permissive lice
 >## Features
 
 - My Work - some of the projects I've built, displayed in a component I built
+  - the links taks you to the deployed app and the github repo
 - Technologies - some of the technologies I've worked with
-- About Me - a brief look at the man, and his professional resume
-- Contact Me - my business contact
-- Fun Stuff:
-  - Music Player - listen to some tunes
-  - Weather Forecast Finder - find weather in a city
-  - Google Maps - interact with google's world map and search for a location
-  - more to come! - google maps, games, direct contact option, and more
+  - hover over them on desktop for the name
+- About Me - a brief look at the man
+- My Resume - a summary of professional resume with an option to download my full resume in a pdf
+- Contact Me - my business contact information
+  - the Google Maps is right now just generally centered on my region in the world
+  - the contact form should work, if you so choose.  It will send me an email.
