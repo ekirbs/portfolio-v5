@@ -114,7 +114,7 @@ export default function Resume() {
           <Row style={{ height: "10%" }}>
             <h3 className="resume-title">Experience</h3>
           </Row>
-          <Row style={{ height: "90%", border: "2px solid var(--highmid" }}>
+          <Row style={{ height: "90%" }}>
             <Col
               style={{
                 display: "flex",
