@@ -10,7 +10,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="nav">
+      <div className="nav-card">
         <div className="menu-icon" onClick={toggleDropdown}>
           {showDropdown ? (
             <FaTimes className="FaTimes" />
@@ -19,12 +19,12 @@ export default function Navbar() {
           )}
         </div>
         {showDropdown && (
-          <div className="dropdown-menu">
+          <div className="nav-menu">
             <div className="menu-items">
-              <a href="#top"><AiFillHome /></a>
-              <a href="#projects"><AiFillProject /></a>
-              <a href="#about"><AiFillMeh /></a>
-              <a href="#contact"><AiFillMail /></a>
+              <a href="#top"><AiFillHome className="menu-option" /></a>
+              <a href="#projects"><AiFillProject className="menu-option" /></a>
+              <a href="#about"><AiFillMeh className="menu-option" /></a>
+              <a href="#contact"><AiFillMail className="menu-option" /></a>
             </div>
           </div>
         )}

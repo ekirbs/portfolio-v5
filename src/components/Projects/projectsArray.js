@@ -11,15 +11,15 @@ const Projects = [
     "github": "https://github.com/slerner/task-sandwich",
     "description": "A task-management system with built in rewards system.",
     "technologies": [
-      <FaReact className="tech-icon react-tech-icon" />,
-      <FaNodeJs className="tech-icon node-tech-icon" />,
-      <DiMongodb className="tech-icon mongo-tech-icon" />,
-      <SiGraphql className="tech-icon graph-tech-icon" />,
       <SiApollographql className="tech-icon apollo-tech-icon" />,
-      <SiExpress className="tech-icon ex-tech-icon" />,
-      <FaHtml5 className="tech-icon html-tech-icon" />,
       <DiCss3 className="tech-icon css-tech-icon" />,
-      <DiJavascript1 className="tech-icon js-tech-icon" />
+      <FaNodeJs className="tech-icon node-tech-icon" />,
+      <SiExpress className="tech-icon ex-tech-icon" />,
+      <SiGraphql className="tech-icon graph-tech-icon" />,
+      <FaHtml5 className="tech-icon html-tech-icon" />,
+      <DiJavascript1 className="tech-icon js-tech-icon" />,
+      <DiMongodb className="tech-icon mongo-tech-icon" />,
+      <FaReact className="tech-icon react-tech-icon" />,
     ]
   },
   {
