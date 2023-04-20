@@ -16,73 +16,73 @@
   }
   
   .css3-logo {
-    -webkit-animation: techs-animation1 12s infinite;
-    animation: techs-animation1 12s infinite;
+    -webkit-animation: techs-animation1 6s infinite;
+    animation: techs-animation1 6s infinite;
   }
   
   .js-logo {
-    -webkit-animation: techs-animation2 12s infinite;
-    animation: techs-animation2 12s infinite;
+    -webkit-animation: techs-animation2 6s infinite;
+    animation: techs-animation2 6s infinite;
   }
   
   .apollo-logo {
-    -webkit-animation: techs-animation3 12s infinite;
-    animation: techs-animation3 12s infinite;
+    -webkit-animation: techs-animation3 6s infinite;
+    animation: techs-animation3 6s infinite;
   }
   
   .jquery-logo {
-    -webkit-animation: techs-animation4 12s infinite;
-    animation: techs-animation4 12s infinite;
+    -webkit-animation: techs-animation4 6s infinite;
+    animation: techs-animation4 6s infinite;
   }
   
   .html5-logo {
-    -webkit-animation: techs-animation5 12s infinite;
-    animation: techs-animation5 12s infinite;
+    -webkit-animation: techs-animation5 6s infinite;
+    animation: techs-animation5 6s infinite;
   }
   
   .node-logo {
-    -webkit-animation: techs-animation6 12s infinite;
-    animation: techs-animation6 12s infinite;
+    -webkit-animation: techs-animation6 6s infinite;
+    animation: techs-animation6 6s infinite;
   }
   
   .react-logo {
-    -webkit-animation: techs-animation7 12s infinite;
-    animation: techs-animation7 12s infinite;
+    -webkit-animation: techs-animation7 6s infinite;
+    animation: techs-animation7 6s infinite;
   }
   
   .mongo-logo {
-    -webkit-animation: techs-animation8 12s infinite;
-    animation: techs-animation8 12s infinite;
+    -webkit-animation: techs-animation8 6s infinite;
+    animation: techs-animation8 6s infinite;
   }
   
   .graph-logo {
-    -webkit-animation: techs-animation9 12s infinite;
-    animation: techs-animation9 12s infinite;
+    -webkit-animation: techs-animation9 6s infinite;
+    animation: techs-animation9 6s infinite;
   }
   
   .express-logo {
-    -webkit-animation: techs-animation10 12s infinite;
-    animation: techs-animation10 12s infinite;
+    -webkit-animation: techs-animation10 6s infinite;
+    animation: techs-animation10 6s infinite;
   }
   
   .handlebars-logo {
-    -webkit-animation: techs-animation11 12s infinite;
-    animation: techs-animation11 12s infinite;
+    -webkit-animation: techs-animation11 6s infinite;
+    animation: techs-animation11 6s infinite;
   }
   
   .sequelize-logo {
-    -webkit-animation: techs-animation12 12s infinite;
-    animation: techs-animation12 12s infinite;
+    -webkit-animation: techs-animation12 6s infinite;
+    animation: techs-animation12 6s infinite;
   }
   
   @keyframes techs-animation1 {
     0%, 100% {
       color: var(--black);
     }
-    4% {
+    8.33% {
       color: var(--css3);
     }
-    8% {
+    16.66% {
       color: var(--black);
     }
   }
@@ -91,13 +91,13 @@
     0%, 100% {
       color: var(--black);
     }
-    4% {
+    8.33% {
       color: var(--black);
     }
-    8% {
+    16.66% {
       color: var(--js);
     }
-    12% {
+    24.99% {
       color: var(--black);
     }
   }
@@ -106,13 +106,13 @@
     0%, 100% {
       color: var(--black);
     }
-    8% {
+    16.66% {
       color: var(--black);
     }
-    12% {
+    24.99% {
       color: var(--apollo);
     }
-    16% {
+    33.33% {
       color: var(--black);
     }
   }
@@ -121,13 +121,13 @@
     0%, 100% {
       color: var(--black);
     }
-    12% {
+    24.99% {
       color: var(--black);
     }
-    16% {
+    33.33% {
       color: var(--jquery);
     }
-    20% {
+    41.66% {
       color: var(--black);
     }
   }
@@ -136,13 +136,13 @@
     0%, 100% {
       color: var(--black);
     }
-    16% {
+    33.33% {
       color: var(--black);
     }
-    20% {
+    41.66% {
       color: var(--html5);
     }
-    24% {
+    49.99% {
       color: var(--black);
     }
   }
@@ -151,13 +151,13 @@
     0%, 100% {
       color: var(--black);
     }
-    20% {
+    41.66% {
       color: var(--black);
     }
-    24% {
+    49.99% {
       color: var(--node);
     }
-    28% {
+    58.33% {
       color: var(--black);
     }
   }
@@ -166,13 +166,13 @@
     0%, 100% {
       color: var(--black);
     }
-    24% {
+    49.99% {
       color: var(--black);
     }
-    28% {
+    58.33% {
       color: var(--react);
     }
-    32% {
+    66.66% {
       color: var(--black);
     }
   }
@@ -181,13 +181,13 @@
     0%, 100% {
       color: var(--black);
     }
-    28% {
+    58.33% {
       color: var(--black);
     }
-    32% {
+    66.66% {
       color: var(--mongo);
     }
-    36% {
+    74.99% {
       color: var(--black);
     }
   }
@@ -196,13 +196,13 @@
     0%, 100% {
       color: var(--black);
     }
-    32% {
+    66.66% {
       color: var(--black);
     }
-    36% {
+    74.99% {
       color: var(--graph);
     }
-    40% {
+    83.33% {
       color: var(--black);
     }
   }
@@ -211,13 +211,13 @@
     0%, 100% {
       color: var(--black);
     }
-    36% {
+    74.99% {
       color: var(--black);
     }
-    40% {
+    83.33% {
       color: var(--express);
     }
-    44% {
+    91.66% {
       color: var(--black);
     }
   }
@@ -226,13 +226,13 @@
     0%, 100% {
       color: var(--black);
     }
-    40% {
+    83.33% {
       color: var(--black);
     }
-    44% {
+    91.66% {
       color: var(--handlebars);
     }
-    48% {
+    100% {
       color: var(--black);
     }
   }
@@ -241,13 +241,13 @@
     0%, 100% {
       color: var(--black);
     }
-    44% {
+    91.66% {
       color: var(--black);
     }
-    48% {
+    100% {
       color: var(--sequelize);
     }
-    52% {
+    108.33% {
       color: var(--black);
     }
   }
