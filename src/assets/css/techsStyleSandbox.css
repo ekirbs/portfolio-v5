@@ -1,0 +1,253 @@
+.techs-card {
+  background: var(--secondary);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2vh 0;
+  }
+  
+  .tech-logo {
+    height: 10vh;
+    width: 10vh;
+  color: var(--black);
+  margin: .5vh 0;
+  }
+  
+  .css3-logo {
+    -webkit-animation: techs-animation1 12s infinite;
+    animation: techs-animation1 12s infinite;
+  }
+  
+  .js-logo {
+    -webkit-animation: techs-animation2 12s infinite;
+    animation: techs-animation2 12s infinite;
+  }
+  
+  .apollo-logo {
+    -webkit-animation: techs-animation3 12s infinite;
+    animation: techs-animation3 12s infinite;
+  }
+  
+  .jquery-logo {
+    -webkit-animation: techs-animation4 12s infinite;
+    animation: techs-animation4 12s infinite;
+  }
+  
+  .html5-logo {
+    -webkit-animation: techs-animation5 12s infinite;
+    animation: techs-animation5 12s infinite;
+  }
+  
+  .node-logo {
+    -webkit-animation: techs-animation6 12s infinite;
+    animation: techs-animation6 12s infinite;
+  }
+  
+  .react-logo {
+    -webkit-animation: techs-animation7 12s infinite;
+    animation: techs-animation7 12s infinite;
+  }
+  
+  .mongo-logo {
+    -webkit-animation: techs-animation8 12s infinite;
+    animation: techs-animation8 12s infinite;
+  }
+  
+  .graph-logo {
+    -webkit-animation: techs-animation9 12s infinite;
+    animation: techs-animation9 12s infinite;
+  }
+  
+  .express-logo {
+    -webkit-animation: techs-animation10 12s infinite;
+    animation: techs-animation10 12s infinite;
+  }
+  
+  .handlebars-logo {
+    -webkit-animation: techs-animation11 12s infinite;
+    animation: techs-animation11 12s infinite;
+  }
+  
+  .sequelize-logo {
+    -webkit-animation: techs-animation12 12s infinite;
+    animation: techs-animation12 12s infinite;
+  }
+  
+  @keyframes techs-animation1 {
+    0%, 100% {
+      color: var(--black);
+    }
+    4% {
+      color: var(--css3);
+    }
+    8% {
+      color: var(--black);
+    }
+  }
+  
+  @keyframes techs-animation2 {
+    0%, 100% {
+      color: var(--black);
+    }
+    4% {
+      color: var(--black);
+    }
+    8% {
+      color: var(--js);
+    }
+    12% {
+      color: var(--black);
+    }
+  }
+  
+  @keyframes techs-animation3 {
+    0%, 100% {
+      color: var(--black);
+    }
+    8% {
+      color: var(--black);
+    }
+    12% {
+      color: var(--apollo);
+    }
+    16% {
+      color: var(--black);
+    }
+  }
+  
+  @keyframes techs-animation4 {
+    0%, 100% {
+      color: var(--black);
+    }
+    12% {
+      color: var(--black);
+    }
+    16% {
+      color: var(--jquery);
+    }
+    20% {
+      color: var(--black);
+    }
+  }
+  
+  @keyframes techs-animation5 {
+    0%, 100% {
+      color: var(--black);
+    }
+    16% {
+      color: var(--black);
+    }
+    20% {
+      color: var(--html5);
+    }
+    24% {
+      color: var(--black);
+    }
+  }
+  
+  @keyframes techs-animation6 {
+    0%, 100% {
+      color: var(--black);
+    }
+    20% {
+      color: var(--black);
+    }
+    24% {
+      color: var(--node);
+    }
+    28% {
+      color: var(--black);
+    }
+  }
+  
+  @keyframes techs-animation7 {
+    0%, 100% {
+      color: var(--black);
+    }
+    24% {
+      color: var(--black);
+    }
+    28% {
+      color: var(--react);
+    }
+    32% {
+      color: var(--black);
+    }
+  }
+  
+  @keyframes techs-animation8 {
+    0%, 100% {
+      color: var(--black);
+    }
+    28% {
+      color: var(--black);
+    }
+    32% {
+      color: var(--mongo);
+    }
+    36% {
+      color: var(--black);
+    }
+  }
+  
+  @keyframes techs-animation9 {
+    0%, 100% {
+      color: var(--black);
+    }
+    32% {
+      color: var(--black);
+    }
+    36% {
+      color: var(--graph);
+    }
+    40% {
+      color: var(--black);
+    }
+  }
+  
+  @keyframes techs-animation10 {
+    0%, 100% {
+      color: var(--black);
+    }
+    36% {
+      color: var(--black);
+    }
+    40% {
+      color: var(--express);
+    }
+    44% {
+      color: var(--black);
+    }
+  }
+  
+  @keyframes techs-animation11 {
+    0%, 100% {
+      color: var(--black);
+    }
+    40% {
+      color: var(--black);
+    }
+    44% {
+      color: var(--handlebars);
+    }
+    48% {
+      color: var(--black);
+    }
+  }
+  
+  @keyframes techs-animation12 {
+    0%, 100% {
+      color: var(--black);
+    }
+    44% {
+      color: var(--black);
+    }
+    48% {
+      color: var(--sequelize);
+    }
+    52% {
+      color: var(--black);
+    }
+  }

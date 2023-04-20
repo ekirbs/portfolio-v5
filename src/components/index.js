@@ -9,7 +9,7 @@ export { default as Map } from "./Map";
 export { default as Navbar } from "./Navbar/index2";
 export { default as Projects } from "./Projects/index3";
 export { default as Resume } from "./Resume/index3";
-export { default as Techs } from "./Techs/index2";
+export { default as Techs } from "./Techs/indexSandbox";
 export { default as Divider } from "./Divider";
 export { default as Divider2 } from "./Divider2";
 export { default as Divider3 } from "./Divider3";
