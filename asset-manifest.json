@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-v5/static/css/main.1dd91314.css",
+    "main.css": "/portfolio-v5/static/css/main.b6b3dc98.css",
     "main.js": "/portfolio-v5/static/js/main.4f7a008a.js",
     "static/media/profile-photo.jpg": "/portfolio-v5/static/media/profile-photo.ca50f76884202c140179.jpg",
     "static/media/puddle-stores.gif": "/portfolio-v5/static/media/puddle-stores.0d549535d1dec4b807e9.gif",
@@ -34,11 +34,11 @@
     "static/media/slick.ttf": "/portfolio-v5/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/portfolio-v5/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio-v5/index.html",
-    "main.1dd91314.css.map": "/portfolio-v5/static/css/main.1dd91314.css.map",
+    "main.b6b3dc98.css.map": "/portfolio-v5/static/css/main.b6b3dc98.css.map",
     "main.4f7a008a.js.map": "/portfolio-v5/static/js/main.4f7a008a.js.map"
   },
   "entrypoints": [
-    "static/css/main.1dd91314.css",
+    "static/css/main.b6b3dc98.css",
     "static/js/main.4f7a008a.js"
   ]
 }
