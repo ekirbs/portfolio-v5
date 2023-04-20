@@ -57,19 +57,19 @@ export default function Contact() {
     <>
       <div className="contact-card">
         <Row className="contact-row">
-          <Col>
+          <Col className="map-col">
             <Map />
           </Col>
           <Col>
             <div className="contact-container">
-              <div>
-                <div><AiFillMail /><p>Email: erickirberger@gmail.com</p></div>
-                <div><AiFillPhone /><p>Phone: 908 229 0170</p></div>
+              <div className="contact-info-container">
+                <div><AiFillMail className="contact-info-icon" /><p className="contact-card-content"> erickirberger@gmail.com</p></div>
+                <div><AiFillPhone className="contact-info-icon" /><p className="contact-card-content"> 908 229 0170</p></div>
               </div>
-              {submitted ? <h2 className="contactCardGreeting">Thank you {formInput.from_name}!</h2> :          
+              {submitted ? <h2 className="contact-success-greeting">Thank you {formInput.from_name}!</h2> :          
                 <>
-                  <div className="contactInfoContainer">
-                    <p className="contactCardContent">
+                  <div>
+                    <p className="contact-card-content">
                       Send me a message and I'll get back to you as soon as I can.
                     </p>
                   </div>
@@ -80,7 +80,7 @@ export default function Contact() {
                       onChange={handleInputChange}
                       type="text"
                       placeholder="Your Name"
-                      className="contact-area contactNameArea"
+                      className="contact-area"
                     />
                     <input
                       value={formInput.reply_to}
@@ -88,7 +88,7 @@ export default function Contact() {
                       onChange={handleInputChange}
                       type="email"
                       placeholder="Your Email"
-                      className="contact-area contactEmailArea"
+                      className="contact-area"
                     />
                     <textarea
                       value={formInput.message}
@@ -96,11 +96,11 @@ export default function Contact() {
                       onChange={handleInputChange}
                       type="textArea"
                       placeholder="Text Area"
-                      className="contact-area contactTextArea"
+                      className="contact-area"
                     />
                     <button
                       type="button"
-                      className="btn btn-secondary"
+                      className="btn btn-secondary contact-button"
                       onClick={handleFormSubmit}
                     >
                       Send It

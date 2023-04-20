@@ -7,14 +7,17 @@
   padding: 2vw;
 }
 
-.contactCardHeading {
-  color: var(--white);
-}
-
 .contact-row {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.map-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .contact-container {
@@ -22,6 +25,26 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.contact-info-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-info-container div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-info-icon {
+  height: 5vh;
+  width: 5vh;
+  margin: 1vh 2vh 1vh 0;
 }
 
 .contact-form {
@@ -36,18 +59,33 @@
   width: 400px;
 }
 
-.contactCardContent {
+.contact-card-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--white);
+  margin-bottom: 0;
 }
 
 .error-text {
   color: var(--error);
 }
 
-.contact-row div {
+/* .contact-row div {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  flex-direction: column;
+} */
+
+.contact-button {
+  transition: transform .2s;
+  box-shadow: 1px 1px 2px var(--black);
+  margin: 1vh;
+}
+
+.contact-button:hover {
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 500px) {

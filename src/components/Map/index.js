@@ -42,7 +42,7 @@ export default function Map() {
     <>
       <div className="map-card">
         {/* <LoadScript googleMapsApiKey={process.env.GOOGLE_MAP_API_KEY}> */}
-        <LoadScript googleMapsApiKey="AIzaSyA9L1HmgV_Sa8s3JoHkZdHreuLR8WY8YdU">
+        <LoadScript googleMapsApiKey="AIzaSyA27s-N83UCA21lplvWegheVkKZ0HGBAdM">
           <GoogleMap
             mapContainerStyle={containerStyle}
             center={center}
