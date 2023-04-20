@@ -10,7 +10,7 @@
 
 .projects-slider {
   /* height: 100%; */
-  width: 90%;
+  width: 94%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,21 +51,23 @@
 }
 
 .custom-arrow {
-  width: 15px;
+  width: 3vh;
   height: 25vh;
   background-color: var(--black);
-  color: var(--turq);
-  font-size: 2rem;
+  color: var(--white);
+  /* font-size: 2rem; */
   /* border: none; */
-  outline: none;
+  /* outline: none; */
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   /* outline: 1px solid var(--white); */
-  border: 1px solid var(--white);
+  border: 1px solid var(--turq);
   border-radius: 5px;
   padding: 1px;
+  font-weight: bold;
+  font-size: 3vh;
 }
 
 .showcase-upper-row {
@@ -257,6 +259,10 @@
     max-height: 115vh;
   }
 
+  .showcase-upper-row {
+    padding: 1vh;
+  }
+
   .showcase-pic {
     width: 100%;
   }
@@ -268,5 +274,9 @@
   .showcase-lower-row a {
     margin-top: 2vh;
     width: 100%;
+  }
+
+  .showcase-list-item {
+    padding: 0 1vh;
   }
 }
