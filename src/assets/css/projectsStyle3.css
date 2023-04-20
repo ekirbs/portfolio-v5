@@ -14,6 +14,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  /* border: 2px solid var(--black); */
 }
 
 .projects-slider div {
@@ -29,7 +30,9 @@
   align-items: center;
   justify-content: center;
   /* margin: 2vh; */
-  /* border: 2px solid var(--black); */
+  border: 2px solid var(--black);
+  margin: 1vw;
+  border-radius: 1vh;
 }
 
 .showcase-main-title {
@@ -59,9 +62,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  outline: 1px solid var(--white);
-  /* border: 1px solid var(--white); */
-  border-radius: 5%;
+  /* outline: 1px solid var(--white); */
+  border: 1px solid var(--white);
+  border-radius: 5px;
   padding: 1px;
 }
 
@@ -91,7 +94,7 @@
   padding: 1vh 10vh;
   color: var(--primary);
   transition: transform 0.2s;
-  border-radius: 2vh;
+  border-radius: 1vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -148,7 +151,7 @@
 }
 
 .tech-icon:hover {
-  transform: scale(1.1);
+  transform: scale(1.25);
 }
 
 .hbrs-tech-icon:hover {
@@ -239,7 +242,7 @@
 
 @media screen and (max-width: 800px) {
   .showcase-pic {
-    width: 110%;
+    width: 100%;
   }
 
   .showcase-lower-row {
@@ -248,5 +251,6 @@
 
   .showcase-lower-row a {
     margin-top: 2vh;
+    width: 100%;
   }
 }

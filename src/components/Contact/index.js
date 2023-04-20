@@ -4,6 +4,7 @@ import { Row, Col } from "react-bootstrap";
 import { Map } from "../";
 import { validateEmail } from "../../utils/helpers";
 import "../../assets/css/contactStyle.css";
+import { AiFillMail, AiFillPhone } from "react-icons/ai";
 // import { AiFillGithub, AiFillLinkedin, AiFillMail } from 'react-icons/ai';
 
 export default function Contact() {
@@ -61,6 +62,10 @@ export default function Contact() {
           </Col>
           <Col>
             <div className="contact-container">
+              <div>
+                <div><AiFillMail /><p>Email: erickirberger@gmail.com</p></div>
+                <div><AiFillPhone /><p>Phone: 908 229 0170</p></div>
+              </div>
               {submitted ? <h2 className="contactCardGreeting">Thank you {formInput.from_name}!</h2> :          
                 <>
                   <div className="contactInfoContainer">

@@ -35,12 +35,18 @@
   margin: 5vh;
   height: 50vh;
   width: auto;
+  transition: transform 0.2s;
+}
+
+.resume-img:hover {
+  transform: scale(1.1);
 }
 
 .exp-logo,
 .edu-logo {
   height: 10vh;
   width: auto;
+  opacity: 50%;
 }
 
 .kcf-logo {
@@ -60,6 +66,19 @@
 .chfc-title {
   color: var(--light);
   text-shadow: 1px 1px 2px var(--black);
+}
+
+.resume-download-card {
+  padding: 5vh 10vh;
+  border: 1px solid var(--black);
+  border-radius: 5vh;
+  box-shadow: 2px 2px 4px var(--primary);
+  margin: 2vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 800px) {

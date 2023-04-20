@@ -183,6 +183,7 @@ export default function Resume() {
                   alignItems: "center",
                   justifyContent: "center",
                   textAlign: "center",
+                  opacity: "50%",
                 }}
               >
                 <h6 className="chfc-title">Central Heights</h6>

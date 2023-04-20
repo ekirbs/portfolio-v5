@@ -15,6 +15,6 @@ export { default as ResumeDownload } from "./resume-download.pdf";
 export { default as ccmLogo } from "./ccm-logo.png";
 export { default as rutgersLogo } from "./rutgers-logo.png";
 export { default as bootcampLogo } from "./bootcamp-logo.png";
-export { default as lewLogo } from "./lew-logo.webp";
+export { default as lewLogo } from "./lew-logo.jpg";
 export { default as cmsLogo } from "./cms-logo.png";
 export { default as kcfLogo } from "./kcf-logo.png";

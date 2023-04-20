@@ -23,101 +23,100 @@ margin: .5vh 0;
 .css3-logo {
   /* color: var(--black); */
   -webkit-animation: techs-animation1 12s infinite;
-  -moz-animation: techs-animation1 12s infinite;
-  -o-animation: techs-animation1 12s infinite;
+  /* -moz-animation: techs-animation1 12s infinite;
+  -o-animation: techs-animation1 12s infinite; */
   animation: techs-animation1 12s infinite;
 }
 
 .js-logo {
   /* color: var(--black); */
   -webkit-animation: techs-animation2 12s infinite;
-  -moz-animation: techs-animation2 12s infinite;
-  -o-animation: techs-animation2 12s infinite;
+  /* -moz-animation: techs-animation2 12s infinite;
+  -o-animation: techs-animation2 12s infinite; */
   animation: techs-animation2 12s infinite;
 }
 
 .apollo-logo {
   /* color: var(--black); */
   -webkit-animation: techs-animation3 12s infinite;
-  -moz-animation: techs-animation3 12s infinite;
-  -o-animation: techs-animation3 12s infinite;
+  /* -moz-animation: techs-animation3 12s infinite;
+  -o-animation: techs-animation3 12s infinite; */
   animation: techs-animation3 12s infinite;
 }
 
 .jquery-logo {
   /* color: var(--black); */
   -webkit-animation: techs-animation4 12s infinite;
-  -moz-animation: techs-animation4 12s infinite;
-  -o-animation: techs-animation4 12s infinite;
+  /* -moz-animation: techs-animation4 12s infinite;
+  -o-animation: techs-animation4 12s infinite; */
   animation: techs-animation4 12s infinite;
 }
 
 .html5-logo {
   /* color: var(--black); */
   -webkit-animation: techs-animation5 12s infinite;
-  -moz-animation: techs-animation5 12s infinite;
-  -o-animation: techs-animation5 12s infinite;
+  /* -moz-animation: techs-animation5 12s infinite;
+  -o-animation: techs-animation5 12s infinite; */
   animation: techs-animation5 12s infinite;
 }
 
 .node-logo {
   /* color: var(--black); */
   -webkit-animation: techs-animation6 12s infinite;
-  -moz-animation: techs-animation6 12s infinite;
-  -o-animation: techs-animation6 12s infinite;
+  /* -moz-animation: techs-animation6 12s infinite;
+  -o-animation: techs-animation6 12s infinite; */
   animation: techs-animation6 12s infinite;
 }
 
 .react-logo {
   /* color: var(--black); */
   -webkit-animation: techs-animation7 12s infinite;
-  -moz-animation: techs-animation7 12s infinite;
-  -o-animation: techs-animation7 12s infinite;
+  /* -moz-animation: techs-animation7 12s infinite;
+  -o-animation: techs-animation7 12s infinite; */
   animation: techs-animation7 12s infinite;
 }
 
 .mongo-logo {
   /* color: var(--black); */
   -webkit-animation: techs-animation8 12s infinite;
-  -moz-animation: techs-animation8 12s infinite;
-  -o-animation: techs-animation8 12s infinite;
+  /* -moz-animation: techs-animation8 12s infinite;
+  -o-animation: techs-animation8 12s infinite; */
   animation: techs-animation8 12s infinite;
 }
 
 .graph-logo {
   /* color: var(--black); */
   -webkit-animation: techs-animation9 12s infinite;
-  -moz-animation: techs-animation9 12s infinite;
-  -o-animation: techs-animation9 12s infinite;
+  /* -moz-animation: techs-animation9 12s infinite;
+  -o-animation: techs-animation9 12s infinite; */
   animation: techs-animation9 12s infinite;
 }
 
 .express-logo {
   /* color: var(--black); */
   -webkit-animation: techs-animation10 12s infinite;
-  -moz-animation: techs-animation10 12s infinite;
-  -o-animation: techs-animation10 12s infinite;
+  /* -moz-animation: techs-animation10 12s infinite;
+  -o-animation: techs-animation10 12s infinite; */
   animation: techs-animation10 12s infinite;
 }
 
 .handlebars-logo {
   /* color: var(--black); */
   -webkit-animation: techs-animation11 12s infinite;
-  -moz-animation: techs-animation11 12s infinite;
-  -o-animation: techs-animation11 12s infinite;
+  /* -moz-animation: techs-animation11 12s infinite;
+  -o-animation: techs-animation11 12s infinite; */
   animation: techs-animation11 12s infinite;
 }
 
 .sequelize-logo {
   /* color: var(--black); */
   -webkit-animation: techs-animation12 12s infinite;
-  -moz-animation: techs-animation12 12s infinite;
-  -o-animation: techs-animation12 12s infinite;
+  /* -moz-animation: techs-animation12 12s infinite;
+  -o-animation: techs-animation12 12s infinite; */
   animation: techs-animation12 12s infinite;
 }
 
-.bootstrap-logo {
-  /* color: var(--black); */
+/* .bootstrap-logo {
   -webkit-animation: techs-animation13 12s infinite;
   -moz-animation: techs-animation13 12s infinite;
   -o-animation: techs-animation13 12s infinite;
@@ -125,7 +124,6 @@ margin: .5vh 0;
 }
 
 .insomnia-logo {
-  /* color: var(--black); */
   -webkit-animation: techs-animation14 12s infinite;
   -moz-animation: techs-animation14 12s infinite;
   -o-animation: techs-animation14 12s infinite;
@@ -133,7 +131,6 @@ margin: .5vh 0;
 }
 
 .passport-logo {
-  /* color: var(--black); */
   -webkit-animation: techs-animation15 12s infinite;
   -moz-animation: techs-animation15 12s infinite;
   -o-animation: techs-animation15 12s infinite;
@@ -141,7 +138,6 @@ margin: .5vh 0;
 }
 
 .heroku-logo {
-  /* color: var(--black); */
   -webkit-animation: techs-animation16 12s infinite;
   -moz-animation: techs-animation16 12s infinite;
   -o-animation: techs-animation16 12s infinite;
@@ -149,7 +145,6 @@ margin: .5vh 0;
 }
 
 .github-logo {
-  /* color: var(--black); */
   -webkit-animation: techs-animation17 12s infinite;
   -moz-animation: techs-animation17 12s infinite;
   -o-animation: techs-animation17 12s infinite;
@@ -157,7 +152,6 @@ margin: .5vh 0;
 }
 
 .msoffice-logo {
-  /* color: var(--black); */
   -webkit-animation: techs-animation18 12s infinite;
   -moz-animation: techs-animation18 12s infinite;
   -o-animation: techs-animation18 12s infinite;
@@ -165,7 +159,6 @@ margin: .5vh 0;
 }
 
 .npm-logo {
-  /* color: var(--black); */
   -webkit-animation: techs-animation19 12s infinite;
   -moz-animation: techs-animation19 12s infinite;
   -o-animation: techs-animation19 12s infinite;
@@ -173,7 +166,6 @@ margin: .5vh 0;
 }
 
 .mysql-logo {
-  /* color: var(--black); */
   -webkit-animation: techs-animation20 12s infinite;
   -moz-animation: techs-animation20 12s infinite;
   -o-animation: techs-animation20 12s infinite;
@@ -181,7 +173,6 @@ margin: .5vh 0;
 }
 
 .materialize-logo {
-  /* color: var(--black); */
   -webkit-animation: techs-animation21 12s infinite;
   -moz-animation: techs-animation21 12s infinite;
   -o-animation: techs-animation21 12s infinite;
@@ -189,7 +180,6 @@ margin: .5vh 0;
 }
 
 .nodemon-logo {
-  /* color: var(--black); */
   -webkit-animation: techs-animation22 12s infinite;
   -moz-animation: techs-animation22 12s infinite;
   -o-animation: techs-animation22 12s infinite;
@@ -197,7 +187,6 @@ margin: .5vh 0;
 }
 
 .json-logo {
-  /* color: var(--black); */
   -webkit-animation: techs-animation23 12s infinite;
   -moz-animation: techs-animation23 12s infinite;
   -o-animation: techs-animation23 12s infinite;
@@ -205,7 +194,6 @@ margin: .5vh 0;
 }
 
 .axios-logo {
-  /* color: var(--black); */
   -webkit-animation: techs-animation24 12s infinite;
   -moz-animation: techs-animation24 12s infinite;
   -o-animation: techs-animation24 12s infinite;
@@ -213,12 +201,11 @@ margin: .5vh 0;
 }
 
 .vscode-logo {
-  /* color: var(--black); */
   -webkit-animation: techs-animation25 12s infinite;
   -moz-animation: techs-animation25 12s infinite;
   -o-animation: techs-animation25 12s infinite;
   animation: techs-animation25 12s infinite;
-}
+} */
 
 @keyframes techs-animation1 {
   0%, 100% {
@@ -400,7 +387,7 @@ margin: .5vh 0;
   }
 }
 
-@keyframes techs-animation13 {
+/* @keyframes techs-animation13 {
   0%, 100% {
     color: var(--black);
   }
@@ -593,22 +580,19 @@ margin: .5vh 0;
   104% {
     color: var(--black);
   }
-}
+} */
 
 
 
-@-webkit-keyframes techs-animation1 {
+/* @-webkit-keyframes techs-animation1 {
   0%, 100% {
     color: var(--black);
-    /* text-shadow: 0px 0px 0px var(--black); */
   }
   4% {
     color: var(--css3);
-    /* text-shadow: 2px 2px 4px var(--black); */
   }
   8% {
     color: var(--black);
-    /* text-shadow: 0px 0px 0px var(--black); */
   }
 }
 
@@ -777,7 +761,7 @@ margin: .5vh 0;
   }
 }
 
-@-webkit-keyframes techs-animation13 {
+/* @-webkit-keyframes techs-animation13 {
   0%, 100% {
     color: var(--black);
   }
@@ -970,22 +954,19 @@ margin: .5vh 0;
   104% {
     color: var(--black);
   }
-}
+} */
 
 
 
-@-moz-keyframes techs-animation1 {
+/* @-moz-keyframes techs-animation1 {
   0%, 100% {
     color: var(--black);
-    /* text-shadow: 0px 0px 0px var(--black); */
   }
   4% {
     color: var(--css3);
-    /* text-shadow: 2px 2px 4px var(--black); */
   }
   8% {
     color: var(--black);
-    /* text-shadow: 0px 0px 0px var(--black); */
   }
 }
 
@@ -1355,15 +1336,12 @@ margin: .5vh 0;
 @-o-keyframes techs-animation1 {
   0%, 100% {
     color: var(--black);
-    /* text-shadow: 0px 0px 0px var(--black); */
   }
   4% {
     color: var(--css3);
-    /* text-shadow: 2px 2px 4px var(--black); */
   }
   8% {
     color: var(--black);
-    /* text-shadow: 0px 0px 0px var(--black); */
   }
 }
 
@@ -1725,4 +1703,4 @@ margin: .5vh 0;
   104% {
     color: var(--black);
   }
-}
+} */
