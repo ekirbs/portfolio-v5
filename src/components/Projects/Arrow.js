@@ -1,5 +1,5 @@
 import React from "react";
-import { SiArrowLeft, SiArrowRight } from "react-icons/si";
+import { SlArrowLeft, SlArrowRight } from "react-icons/sl";
 
 export default function ArrowButton({ onClick, direction }) {
   return (
@@ -8,8 +8,8 @@ export default function ArrowButton({ onClick, direction }) {
       onClick={onClick}
       aria-label={direction === "prev" ? "Previous slide" : "Next slide"}
     >
-      {direction === "prev" ? <SiArrowLeft /> : <SiArrowRight />}
-      {/* {direction === "prev" ? "<" : ">"} */}
+      {/* {direction === "prev" ? <SlArrowLeft /> : <SlArrowRight />} */}
+      {direction === "prev" ? "<" : ">"}
     </button>
   );
 };
