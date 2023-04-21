@@ -1,18 +1,5 @@
-// import React from 'react';
-// import { robotHead } from "../../assets/images";
-// import "../../assets/css/headerStyle.css"
-
-// export default function Header() {
-//   return (
-//     <header id="top" className="header">
-//       <h1>Eric Kirberger</h1><img src={robotHead} className="headShot" alt="Eric Kirberger."></img><h1>Web Developer</h1>
-//     </header>
-//   );
-// }
-
 import React, { useState, useEffect } from 'react';
-import { robotHead } from "../../assets/images";
-import "../../assets/css/headerStyle.css"
+import "../../assets/css/headerStyle.css";
 
 export default function Header() {
   const [showText, setShowText] = useState(false);
@@ -25,9 +12,9 @@ export default function Header() {
 
   return (
     <header id="top" className="header">
-      <h1 style={{ opacity: showText ? 1 : 0, transition: "opacity 7s" }}>Eric Kirberger</h1>
-      <img src={robotHead} className="headShot" alt="Eric Kirberger." />
-      <h1 style={{ opacity: showText ? 1 : 0, transition: "opacity 7s" }}>Web Developer</h1>
+      {/* <video src={`$[process.env.PUBLIC_URL]/assets/images/puddle-shine.mp4`} autoPlay muted loop></video> */}
+      <h1 className="header-name" style={{ opacity: showText ? 1 : 0, transition: "opacity 7s" }}>Eric Kirberger</h1>
+      <h1 className="header-title" style={{ opacity: showText ? 1 : 0, transition: "opacity 7s" }}>Web Developer</h1>
     </header>
   );
 }

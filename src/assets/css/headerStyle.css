@@ -1,33 +1,50 @@
 .header {
-  background: url(../../assets/images/puddle-shine.webp) no-repeat center center fixed;
+  background-image: url(../../assets/images/puddle-shine.gif);
+  /* background-image: url(../../assets/images/puddle-shine.webp) no-repeat center center fixed; */
+  /* background-repeat: no-repeat;
+  background-attachment: fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 90vh;
+  height: 110vh;
   width: 100%;
   /* font-size: larger; */
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   color: var(--white);
+  margin-bottom: -10vh;
 }
 
-.headShot {
-  height: 25vh;
-  width: 25vh;
-  border-radius: 50%;
-  margin: 1vw;
-}
-
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
   .header h1 {
 
   }
+} */
+
+.header-name {
+  padding-bottom: 5px;
+  border-bottom: 2px solid var(--white);
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* .fade-in {
-  opacity: 0;
-  transition: opacity 3s ease-in-out;
-  opacity: 1;
-} */
+.header-title {
+  padding-top: 5px;
+  border-top: 2px solid var(--white);
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 820px) {
+  .header {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}

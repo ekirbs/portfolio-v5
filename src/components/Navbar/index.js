@@ -1,31 +1,34 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { AiFillHome, AiFillMail, AiFillProject, AiFillMeh } from 'react-icons/ai';
+import { AiFillHome, AiFillFolderOpen, AiFillCrown, AiFillMail, AiFillPhone } from 'react-icons/ai';
 import "../../assets/css/navStyle.css";
 
 export default function Navbar() {
-  const [ showMenu, setShowMenu ] = useState(false);
+  const [ showDropdown, setShowDropdown ] = useState(false);
 
-  const toggleMenu = () => setShowMenu(!showMenu);
+  const toggleDropdown = () => setShowDropdown(!showDropdown);
 
   return (
     <>
-      <div className="menu-icon nav" onClick={toggleMenu}>
-        <FaBars className="FaBars" />
-      </div>
-      {showMenu && (
-        <div className="dropdown-menu">
-          <div className="close-icon" onClick={toggleMenu}>
+      <div className="nav-card">
+        <div className="menu-icon" onClick={toggleDropdown}>
+          {showDropdown ? (
             <FaTimes className="FaTimes" />
-          </div>
-          <div className="menu-items">
-            <a href="#top"><AiFillHome />home</a>
-            <a href="#projects"><AiFillProject />projects</a>
-            <a href="#about"><AiFillMeh />me</a>
-            <a href="#contact"><AiFillMail />contact</a>
-          </div>
+          ) : (
+            <FaBars className="FaBars"/>
+          )}
         </div>
-      )}
+        {showDropdown && (
+          <div className="nav-menu">
+            <div className="menu-items">
+              <a href="#top"><AiFillHome className="menu-option" /></a>
+              <a href="#projects"><AiFillFolderOpen className="menu-option" /></a>
+              <a href="#about"><AiFillCrown className="menu-option" /></a>
+              <a href="#contact"><AiFillPhone className="menu-option" /></a>
+            </div>
+          </div>
+        )}
+      </div>
     </>
   );
 }
