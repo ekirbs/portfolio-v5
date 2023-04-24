@@ -35,6 +35,8 @@
     var(--black) 80%,
     transparent 100%
   );
+  border: 2px solid var(--white);
+  border-radius: 2vh;
 }
 
 .about-header-title {

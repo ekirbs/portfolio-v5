@@ -1,9 +1,8 @@
 import React from "react";
 import { instagramLogo, githubLogo, linkedinLogo } from "../../assets/images";
-
 import '../../assets/css/footerStyle.css';
 
-function Footer() {
+export default function Footer() {
   return (
     <footer className="footer">
       <a href="https://www.instagram.com/clearlyimarobot83/" target="_blank" rel="noreferrer"><img src={instagramLogo} alt="Instagram logo."/><span className="footerText">Instagram</span></a>
@@ -12,5 +11,3 @@ function Footer() {
     </footer>
   );
 }
-
-export default Footer;

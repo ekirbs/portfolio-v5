@@ -8,7 +8,7 @@ export default function Divider() {
     <>
     <div className="diagonal-section">
       <div className="divider-content">
-        <h2 className="projects-header">My Work</h2>
+        <h4 className="projects-header">My Work</h4>
       </div>
     </div>
     </>

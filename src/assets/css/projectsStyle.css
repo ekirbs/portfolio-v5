@@ -136,7 +136,7 @@
   height: 8vh;
   width: auto;
   color: var(--black);
-  transition: transform 0.2s;
+  /* transition: transform 0.2s; */
   margin: 1vh;
 }
 
@@ -156,55 +156,115 @@
   margin-left: 1vw;
 }
 
-.tech-icon:hover {
-  transform: scale(1.25);
+.highlight {
+  transition: transform 0.2s;
 }
 
-.hbrs-tech-icon:hover {
+.hbrs-highlight:hover {
+  transform: scale(1.1);
   color: var(--handlebars);
 }
 
-.node-tech-icon:hover {
+.hbrs-highlight:hover .tech-icon {
+  color: var(--handlebars);
+}
+
+.node-highlight:hover {
+  transform: scale(1.1);
   color: var(--node);
 }
 
-.jq-tech-icon:hover {
+.node-highlight:hover .tech-icon {
+  color: var(--node);
+}
+
+.jq-highlight:hover {
+  transform: scale(1.1);
   color: var(--jquery);
 }
 
-.ex-tech-icon:hover {
+.jq-highlight:hover .tech-icon {
+  color: var(--jquery);
+}
+
+.ex-highlight:hover {
+  transform: scale(1.1);
   color: var(--express);
 }
 
-.html-tech-icon:hover {
+.ex-highlight:hover .tech-icon {
+  color: var(--express);
+}
+
+.html-highlight:hover {
+  transform: scale(1.1);
   color: var(--html5);
 }
 
-.css-tech-icon:hover {
+.html-highlight:hover .tech-icon {
+  color: var(--html5);
+}
+
+.css-highlight:hover {
+  transform: scale(1.1);
   color: var(--css3);
 }
 
-.js-tech-icon:hover {
-  color: var(--js)
+.css-highlight:hover .tech-icon {
+  color: var(--css3);
 }
 
-.react-tech-icon:hover {
+.js-highlight:hover {
+  transform: scale(1.1);
+  color: var(--js);
+}
+
+.js-highlight:hover .tech-icon {
+  color: var(--js);
+}
+
+.react-highlight:hover {
+  transform: scale(1.1);
   color: var(--react);
 }
 
-.mongo-tech-icon:hover {
+.react-highlight:hover .tech-icon {
+  color: var(--react);
+}
+
+.mongo-highlight:hover {
+  transform: scale(1.1);
   color: var(--mongo);
 }
 
-.graph-tech-icon:hover {
+.mongo-highlight:hover .tech-icon {
+  color: var(--mongo);
+}
+
+.graph-highlight:hover {
+  transform: scale(1.1);
   color: var(--graph);
 }
 
-.apollo-tech-icon:hover {
+.graph-highlight:hover .tech-icon {
+  color: var(--graph);
+}
+
+.apollo-highlight:hover {
+  transform: scale(1.1);
   color: var(--apollo);
 }
 
-.sequelize-tech-icon:hover {
+.apollo-highlight:hover .tech-icon {
+  color: var(--apollo);
+}
+
+.sequelize-highlight:hover {
+  transform: scale(1.1);
+  color: var(--sequelize);
+}
+
+.sequelize-highlight:hover .tech-icon {
   color: var(--sequelize);
 }
 

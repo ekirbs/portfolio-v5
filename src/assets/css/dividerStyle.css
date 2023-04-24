@@ -24,12 +24,14 @@
   align-items: center;
   justify-content: center;
   transform: skewY(3deg);
+  min-height: 20vh;
 }
 
 .projects-header {
-  font-size: 400%;
+  font-size: 200%;
   color: var(--quatrinary);
   margin: 5vh;
+  font-weight: bold;
 }
 
 .divider {
@@ -99,10 +101,12 @@
   align-items: center;
   justify-content: center;
   transform: skewY(-3deg);
+  min-height: 20vh;
 }
 
 .resume-header {
-  font-size: 400%;
+  font-size: 200%;
   color: var(--black);
   margin: 5vh;
+  font-weight: bold;
 }

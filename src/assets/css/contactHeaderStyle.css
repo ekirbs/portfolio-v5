@@ -28,8 +28,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 2vh;
+  border-radius: 3vh;
   padding: 2vh;
+  /* background-color: rgba(128 128 128 .5); */
+  /* background-image: linear-gradient(
+    -90deg,
+    transparent 0%,
+    var(--secondary) 20%,
+    var(--secondary) 50%,
+    var(--secondary) 80%,
+    transparent 100%
+  ); */
+  background-color: var(--secondary);
+  box-shadow: 8px 8px 16px var(--black) inset;
+  /* background: 
+    linear-gradient(to top, #eb3136, white 7px, transparent 7px),
+    linear-gradient(to right, #eb3136, white 7px, transparent 7px),
+    linear-gradient(to bottom, #eb3136, white 7px, transparent 7px),
+    linear-gradient(to left, #eb3136, white 7px, transparent 7px); */
 }
 
 .contact-header-title {
