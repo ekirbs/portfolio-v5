@@ -28,287 +28,136 @@
   /* animation: techs-animation1 6s infinite; */
 }
 
-/* .js-logo {
-  -webkit-animation: techs-animation2 6s infinite;
-  animation: techs-animation2 6s infinite;
+.js-logo {
+  -webkit-animation-name: techs-animation2;
+  animation-name: techs-animation2;
+  -webkit-animation-duration: 6s;
+  animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /* -webkit-animation: techs-animation2 6s infinite;
+  animation: techs-animation2 6s infinite; */
 }
 
 .apollo-logo {
-  -webkit-animation: techs-animation3 6s infinite;
-  animation: techs-animation3 6s infinite;
+  -webkit-animation-name: techs-animation3;
+  animation-name: techs-animation3;
+  -webkit-animation-duration: 6s;
+  animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /* -webkit-animation: techs-animation3 6s infinite;
+  animation: techs-animation3 6s infinite; */
 }
 
 .jquery-logo {
-  -webkit-animation: techs-animation4 6s infinite;
-  animation: techs-animation4 6s infinite;
+  -webkit-animation-name: techs-animation4;
+  animation-name: techs-animation4;
+  -webkit-animation-duration: 6s;
+  animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /* -webkit-animation: techs-animation4 6s infinite;
+  animation: techs-animation4 6s infinite; */
 }
 
 .html5-logo {
-  -webkit-animation: techs-animation5 6s infinite;
-  animation: techs-animation5 6s infinite;
+  -webkit-animation-name: techs-animation5;
+  animation-name: techs-animation5;
+  -webkit-animation-duration: 6s;
+  animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /* -webkit-animation: techs-animation5 6s infinite;
+  animation: techs-animation5 6s infinite; */
 }
 
 .node-logo {
-  -webkit-animation: techs-animation6 6s infinite;
-  animation: techs-animation6 6s infinite;
+  -webkit-animation-name: techs-animation6;
+  animation-name: techs-animation6;
+  -webkit-animation-duration: 6s;
+  animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /* -webkit-animation: techs-animation6 6s infinite;
+  animation: techs-animation6 6s infinite; */
 }
 
 .react-logo {
-  -webkit-animation: techs-animation7 6s infinite;
-  animation: techs-animation7 6s infinite;
+  -webkit-animation-name: techs-animation7;
+  animation-name: techs-animation7;
+  -webkit-animation-duration: 6s;
+  animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /* -webkit-animation: techs-animation7 6s infinite;
+  animation: techs-animation7 6s infinite; */
 }
 
 .mongo-logo {
-  -webkit-animation: techs-animation8 6s infinite;
-  animation: techs-animation8 6s infinite;
+  -webkit-animation-name: techs-animation8;
+  animation-name: techs-animation8;
+  -webkit-animation-duration: 6s;
+  animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /* -webkit-animation: techs-animation8 6s infinite;
+  animation: techs-animation8 6s infinite; */
 }
 
 .graph-logo {
-  -webkit-animation: techs-animation9 6s infinite;
-  animation: techs-animation9 6s infinite;
+  -webkit-animation-name: techs-animation9;
+  animation-name: techs-animation9;
+  -webkit-animation-duration: 6s;
+  animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /* -webkit-animation: techs-animation9 6s infinite;
+  animation: techs-animation9 6s infinite; */
 }
 
 .express-logo {
-  -webkit-animation: techs-animation10 6s infinite;
-  animation: techs-animation10 6s infinite;
+  -webkit-animation-name: techs-animation10;
+  animation-name: techs-animation10;
+  -webkit-animation-duration: 6s;
+  animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /* -webkit-animation: techs-animation10 6s infinite;
+  animation: techs-animation10 6s infinite; */
 }
 
 .handlebars-logo {
-  -webkit-animation: techs-animation11 6s infinite;
-  animation: techs-animation11 6s infinite;
+  -webkit-animation-name: techs-animation11;
+  animation-name: techs-animation11;
+  -webkit-animation-duration: 6s;
+  animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /* -webkit-animation: techs-animation11 6s infinite;
+  animation: techs-animation11 6s infinite; */
 }
 
 .sequelize-logo {
-  -webkit-animation: techs-animation12 6s infinite;
-  animation: techs-animation12 6s infinite;
-} */
-
-/* BASE KEYFRAME ANIMATION SET */
-@-webkit-keyframes techs-animation1 {
-  0% {
-    color: var(--black);
-  }
-  /* 8.33 { */
-  50% {
-    color: var(--css3);
-  }
-  /* 16.66% { */
-  75% {
-    color: var(--black);
-  }
-  100% {
-    color: var(--black);
-  }
+  -webkit-animation-name: techs-animation12;
+  animation-name: techs-animation12;
+  -webkit-animation-duration: 6s;
+  animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /* -webkit-animation: techs-animation12 6s infinite;
+  animation: techs-animation12 6s infinite; */
 }
-
-@keyframes techs-animation1 {
-  0% {
-    /* -webkit-color: var(--black); */
-    color: var(--black);
-  }
-  /* 8.33% { */
-  50% {
-    /* -webkit-color: var(--css3); */
-    color: var(--css3);
-  }
-  /* 16.66% { */
-  75% {
-    /* -webkit-color: var(--black); */
-    color: var(--black);
-  }
-  100% {
-    /* -webkit-color: var(--black); */
-    color: var(--black);
-  }
-}
-
-/* @keyframes techs-animation2 {
-  0%,
-  100% {
-    color: var(--black);
-  }
-  8.33% {
-    color: var(--black);
-  }
-  16.66% {
-    color: var(--js);
-  }
-  24.99% {
-    color: var(--black);
-  }
-}
-
-@keyframes techs-animation3 {
-  0%,
-  100% {
-    color: var(--black);
-  }
-  16.66% {
-    color: var(--black);
-  }
-  24.99% {
-    color: var(--apollo);
-  }
-  33.33% {
-    color: var(--black);
-  }
-}
-
-@keyframes techs-animation4 {
-  0%,
-  100% {
-    color: var(--black);
-  }
-  24.99% {
-    color: var(--black);
-  }
-  33.33% {
-    color: var(--jquery);
-  }
-  41.66% {
-    color: var(--black);
-  }
-}
-
-@keyframes techs-animation5 {
-  0%,
-  100% {
-    color: var(--black);
-  }
-  33.33% {
-    color: var(--black);
-  }
-  41.66% {
-    color: var(--html5);
-  }
-  49.99% {
-    color: var(--black);
-  }
-}
-
-@keyframes techs-animation6 {
-  0%,
-  100% {
-    color: var(--black);
-  }
-  41.66% {
-    color: var(--black);
-  }
-  49.99% {
-    color: var(--node);
-  }
-  58.33% {
-    color: var(--black);
-  }
-}
-
-@keyframes techs-animation7 {
-  0%,
-  100% {
-    color: var(--black);
-  }
-  49.99% {
-    color: var(--black);
-  }
-  58.33% {
-    color: var(--react);
-  }
-  66.66% {
-    color: var(--black);
-  }
-}
-
-@keyframes techs-animation8 {
-  0%,
-  100% {
-    color: var(--black);
-  }
-  58.33% {
-    color: var(--black);
-  }
-  66.66% {
-    color: var(--mongo);
-  }
-  74.99% {
-    color: var(--black);
-  }
-}
-
-@keyframes techs-animation9 {
-  0%,
-  100% {
-    color: var(--black);
-  }
-  66.66% {
-    color: var(--black);
-  }
-  74.99% {
-    color: var(--graph);
-  }
-  83.33% {
-    color: var(--black);
-  }
-}
-
-@keyframes techs-animation10 {
-  0%,
-  100% {
-    color: var(--black);
-  }
-  74.99% {
-    color: var(--black);
-  }
-  83.33% {
-    color: var(--express);
-  }
-  91.66% {
-    color: var(--black);
-  }
-}
-
-@keyframes techs-animation11 {
-  0%,
-  100% {
-    color: var(--black);
-  }
-  83.33% {
-    color: var(--black);
-  }
-  91.66% {
-    color: var(--handlebars);
-  }
-  100% {
-    color: var(--black);
-  }
-}
-
-@keyframes techs-animation12 {
-  0%,
-  100% {
-    color: var(--black);
-  }
-  91.66% {
-    color: var(--black);
-  }
-  100% {
-    color: var(--sequelize);
-  }
-  108.33% {
-    color: var(--black);
-  }
-} */
 
 /* -WEBKIT- KEYFRAME ANIMATION SET */
 @-webkit-keyframes techs-animation1 {
   0% {
     color: var(--black);
   }
-  /* 8.33 { */
-  50% {
+  8.33% {
     color: var(--css3);
   }
-  /* 16.66% { */
-  75% {
+  16.66% {
     color: var(--black);
   }
   100% {
@@ -316,7 +165,7 @@
   }
 }
 
-/* @-webkit-keyframes techs-animation2 {
+@-webkit-keyframes techs-animation2 {
   0%,
   100% {
     color: var(--black);
@@ -490,4 +339,208 @@
   108.33% {
     color: var(--black);
   }
-} */
+}
+
+/* KEYFRAME ANIMATION SET */
+
+@keyframes techs-animation1 {
+  0% {
+    /* -webkit-color: var(--black); */
+    color: var(--black);
+  }
+  8.33% {
+    /* -webkit-color: var(--css3); */
+    color: var(--css3);
+  }
+  16.66% {
+    /* -webkit-color: var(--black); */
+    color: var(--black);
+  }
+  100% {
+    /* -webkit-color: var(--black); */
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation2 {
+  0%,
+  100% {
+    color: var(--black);
+  }
+  8.33% {
+    color: var(--black);
+  }
+  16.66% {
+    color: var(--js);
+  }
+  24.99% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation3 {
+  0%,
+  100% {
+    color: var(--black);
+  }
+  16.66% {
+    color: var(--black);
+  }
+  24.99% {
+    color: var(--apollo);
+  }
+  33.33% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation4 {
+  0%,
+  100% {
+    color: var(--black);
+  }
+  24.99% {
+    color: var(--black);
+  }
+  33.33% {
+    color: var(--jquery);
+  }
+  41.66% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation5 {
+  0%,
+  100% {
+    color: var(--black);
+  }
+  33.33% {
+    color: var(--black);
+  }
+  41.66% {
+    color: var(--html5);
+  }
+  49.99% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation6 {
+  0%,
+  100% {
+    color: var(--black);
+  }
+  41.66% {
+    color: var(--black);
+  }
+  49.99% {
+    color: var(--node);
+  }
+  58.33% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation7 {
+  0%,
+  100% {
+    color: var(--black);
+  }
+  49.99% {
+    color: var(--black);
+  }
+  58.33% {
+    color: var(--react);
+  }
+  66.66% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation8 {
+  0%,
+  100% {
+    color: var(--black);
+  }
+  58.33% {
+    color: var(--black);
+  }
+  66.66% {
+    color: var(--mongo);
+  }
+  74.99% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation9 {
+  0%,
+  100% {
+    color: var(--black);
+  }
+  66.66% {
+    color: var(--black);
+  }
+  74.99% {
+    color: var(--graph);
+  }
+  83.33% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation10 {
+  0%,
+  100% {
+    color: var(--black);
+  }
+  74.99% {
+    color: var(--black);
+  }
+  83.33% {
+    color: var(--express);
+  }
+  91.66% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation11 {
+  0%,
+  100% {
+    color: var(--black);
+  }
+  83.33% {
+    color: var(--black);
+  }
+  91.66% {
+    color: var(--handlebars);
+  }
+  100% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation12 {
+  0%,
+  100% {
+    color: var(--black);
+  }
+  91.66% {
+    color: var(--black);
+  }
+  100% {
+    color: var(--sequelize);
+  }
+  108.33% {
+    color: var(--black);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .tech-logo {
+    height: 8vh;
+    width: 8vh;
+  }
+}
