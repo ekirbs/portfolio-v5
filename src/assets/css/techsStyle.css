@@ -86,21 +86,21 @@
 /* BASE KEYFRAME ANIMATION SET */
 @keyframes techs-animation1 {
   0% {
-    -webkit-color: var(--black);
+    /* -webkit-color: var(--black); */
     color: var(--black);
   }
   /* 8.33% { */
   50% {
-    -webkit-color: var(--css3);
+    /* -webkit-color: var(--css3); */
     color: var(--css3);
   }
   /* 16.66% { */
   75% {
-    -webkit-color: var(--black);
+    /* -webkit-color: var(--black); */
     color: var(--black);
   }
   100% {
-    -webkit-color: var(--black);
+    /* -webkit-color: var(--black); */
     color: var(--black);
   }
 }
