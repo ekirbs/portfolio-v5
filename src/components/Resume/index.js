@@ -30,16 +30,17 @@ export default function Resume() {
         </div>
 
         <div className="resume-section-card">
-          <Row style={{ height: "10%" }}>
+          {/* <Row style={{ height: "10%" }}>
             <h3 className="resume-title">Education</h3>
-          </Row>
-          <Row style={{ height: "90%" }}>
+          </Row> */}
+          <Row>
             <Col
               style={{
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
                 justifyContent: "center",
+                padding: "6vh 1vh",
               }}
             >
               <Row>
@@ -51,6 +52,9 @@ export default function Resume() {
               </Row>
             </Col>
             <Col>
+              <Row>
+                <h3 className="resume-title">Education</h3>
+              </Row>
               <Row className="resume-content">
                 <Col>
                   <p>Full-Stack Web Development Certificate</p>
@@ -90,6 +94,7 @@ export default function Resume() {
                 flexDirection: "column",
                 alignItems: "center",
                 justifyContent: "space-between",
+                padding: "6vh 1vh",
               }}
             >
               <Row>
@@ -111,16 +116,17 @@ export default function Resume() {
         </div>
 
         <div className="resume-section-card">
-          <Row style={{ height: "10%" }}>
+          {/* <Row style={{ height: "10%" }}>
             <h3 className="resume-title">Experience</h3>
-          </Row>
-          <Row style={{ height: "90%" }}>
+          </Row> */}
+          <Row>
             <Col
               style={{
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
                 justifyContent: "space-between",
+                padding: "6vh 1vh",
               }}
             >
               <Row>
@@ -135,6 +141,9 @@ export default function Resume() {
               </Row>
             </Col>
             <Col>
+              <Row>
+                <h3 className="resume-title">Experience</h3>
+              </Row>
               <Row className="resume-content">
                 <Col>
                   <p>Report Administrator, QA/QC Administator</p>
@@ -174,6 +183,7 @@ export default function Resume() {
                 flexDirection: "column",
                 alignItems: "center",
                 justifyContent: "center",
+                padding: "6vh 1vh",
               }}
             >
               <Row

@@ -57,9 +57,21 @@
 }
 
 .resume-diagonal-section {
-  /* background-image: linear-gradient(45deg, var(--black), var(--dark)); */
-  /* background-image: linear-gradient(45deg, #6303B1, #ff0099); */
   background-image: linear-gradient(
+    -225deg,
+    var(--black) 15%,
+    #231557 20%,
+    #44107a 30%,
+    #ff1361 35%,
+    #fff800 45%,
+    var(--white) 60%,
+    #fff800 75%,
+    #ff1361 85%,
+    #44107a 90%,
+    #231557 100%
+  );
+  /* background-image: linear-gradient(45deg, #6303B1, #ff0099); */
+  /* background-image: linear-gradient(
     -225deg,
     #231557 20%,
     #44107a 35%,
@@ -68,7 +80,7 @@
     #ff1361 70%,
     #44107a 85%,
     #231557 100%
-  );
+  ); */
   transform: skewY(3deg);
   width: 100% !important;
   /* margin-top: -10vh; */

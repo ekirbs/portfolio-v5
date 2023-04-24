@@ -21,12 +21,15 @@
 
 .contact-header-name {
   padding-bottom: 5px;
-  border-top: 2px solid var(--white);
-  border-bottom: 2px solid var(--white);
+  /* border-top: 2px solid var(--white);
+  border-bottom: 2px solid var(--white); */
+  border: 2px solid var(--white);
   width: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 2vh;
+  padding: 2vh;
 }
 
 .contact-header-title {

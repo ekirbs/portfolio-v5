@@ -18,8 +18,14 @@
 
 /* TECH LOGO ICON ANIMATION SET */
 .css3-logo {
-  -webkit-animation: techs-animation1 6s infinite;
-  animation: techs-animation1 6s infinite;
+  -webkit-animation-name: techs-animation1;
+  animation-name: techs-animation1;
+  -webkit-animation-duration: 6s;
+  animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+    /* -webkit-animation: techs-animation1 6s infinite; */
+  /* animation: techs-animation1 6s infinite; */
 }
 
 .js-logo {
@@ -79,14 +85,19 @@
 
 /* BASE KEYFRAME ANIMATION SET */
 @keyframes techs-animation1 {
-  0%,
-  100% {
+  0% {
+    -webkit-color: var(--black);
     color: var(--black);
   }
   8.33% {
+    -webkit-color: var(--css3);
     color: var(--css3);
   }
   16.66% {
+    -webkit-color: var(--black);
+    color: var(--black);
+  }
+  100% {
     color: var(--black);
   }
 }
@@ -268,7 +279,7 @@
 }
 
 /* -WEBKIT- KEYFRAME ANIMATION SET */
-@-webkit-keyframes techs-animation1 {
+/* @-webkit-keyframes techs-animation1 {
   0%,
   100% {
     color: var(--black);
@@ -279,7 +290,7 @@
   16.66% {
     color: var(--black);
   }
-}
+} */
 
 @-webkit-keyframes techs-animation2 {
   0%,
