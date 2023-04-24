@@ -2,6 +2,8 @@ import { useState } from "react";
 import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
 import { Button } from "react-bootstrap";
 import "../../assets/css/mapStyle.css";
+import dotenv from 'dotenv';
+dotenv.config();
 
 const containerStyle = {
   width: '40vh',
@@ -42,7 +44,7 @@ export default function Map() {
     <>
       <div className="map-card">
         {/* <LoadScript googleMapsApiKey={process.env.GOOGLE_MAP_API_KEY}> */}
-        <LoadScript googleMapsApiKey="AIzaSyClzTyBcyGPC2yw8B4MoXSJ1X6rAdg8MIA">
+        <LoadScript googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAP_API_KEY}>
           <GoogleMap
             mapContainerStyle={containerStyle}
             center={center}
