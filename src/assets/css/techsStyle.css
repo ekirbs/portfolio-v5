@@ -84,6 +84,23 @@
 } */
 
 /* BASE KEYFRAME ANIMATION SET */
+@-webkit-keyframes techs-animation1 {
+  0% {
+    color: var(--black);
+  }
+  /* 8.33 { */
+  50% {
+    color: var(--css3);
+  }
+  /* 16.66% { */
+  75% {
+    color: var(--black);
+  }
+  100% {
+    color: var(--black);
+  }
+}
+
 @keyframes techs-animation1 {
   0% {
     /* -webkit-color: var(--black); */
@@ -282,20 +299,24 @@
 } */
 
 /* -WEBKIT- KEYFRAME ANIMATION SET */
-/* @-webkit-keyframes techs-animation1 {
-  0%,
-  100% {
+@-webkit-keyframes techs-animation1 {
+  0% {
     color: var(--black);
   }
-  8.33% {
+  /* 8.33 { */
+  50% {
     color: var(--css3);
   }
-  16.66% {
+  /* 16.66% { */
+  75% {
+    color: var(--black);
+  }
+  100% {
     color: var(--black);
   }
 }
 
-@-webkit-keyframes techs-animation2 {
+/* @-webkit-keyframes techs-animation2 {
   0%,
   100% {
     color: var(--black);
