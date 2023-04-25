@@ -19,17 +19,22 @@
 }
 
 .divider-content {
-  margin: 0 auto;
+  margin: 5vh auto;
   display: flex;
   align-items: center;
   justify-content: center;
   transform: skewY(3deg);
-  min-height: 20vh;
+  min-height: 10vh;
+  border: 2px solid var(--light);
+  background-color: var(--secondary);
+  box-shadow: 8px 8px 16px var(--black) inset;
+  text-shadow: 8px 8px 4px var(--black);
+  border-radius: 3vh;
 }
 
 .projects-header {
   font-size: 200%;
-  color: var(--quatrinary);
+  color: var(--light);
   margin: 5vh;
   font-weight: bold;
 }

@@ -36,6 +36,7 @@
   height: 50vh;
   width: auto;
   transition: transform 0.2s;
+  box-shadow: 2px 2px 4px var(--black);
 }
 
 .resume-img:hover {
@@ -61,6 +62,14 @@
   justify-content: center;
   padding: 5vh;
   text-decoration: underline;
+}
+
+.resume-content {
+  padding-top: 2vh;
+}
+
+.resume-content-underline {
+  border-bottom: 1px solid var(--black);
 }
 
 .chfc-title {

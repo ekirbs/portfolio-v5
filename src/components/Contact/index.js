@@ -69,7 +69,7 @@ export default function Contact() {
               {submitted ? <h2 className="contact-success-greeting">Thank you {formInput.from_name}!</h2> :          
                 <>
                   <div>
-                    <p className="contact-card-content">
+                    <p className="contact-card-content contact-form-content">
                       Send me a message and I'll get back to you as soon as I can.
                     </p>
                   </div>
@@ -96,7 +96,7 @@ export default function Contact() {
                       onChange={handleInputChange}
                       type="textArea"
                       placeholder="Text Area"
-                      className="contact-area"
+                      className="contact-area text-area"
                     />
                     <button
                       type="button"

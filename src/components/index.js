@@ -11,6 +11,6 @@ export { default as Main } from "./Main";
 export { default as Map } from "./Map";
 export { default as Navbar } from "./Navbar";
 export { default as Projects } from "./Projects";
-export { default as Resume } from "./Resume";
+export { default as Resume } from "./Resume/index2";
 export { default as ResumeDivider } from "./ResumeDivider";
 export { default as Techs } from "./Techs";

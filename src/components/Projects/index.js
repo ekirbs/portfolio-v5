@@ -43,7 +43,7 @@ export default class SimpleSlider extends Component {
                   <div className="showcase-pic">
                     <img src={pic} key={index} alt={title} />
                     <div className="showcase-desc">
-                      <p>{description}</p>
+                      <p className="projects-description">{description}</p>
                     </div>
                   </div>
                   <div className="tech-list-container">
