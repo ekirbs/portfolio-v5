@@ -1,16 +1,8 @@
-/* .divider-container {
-  width: 100%;
-  overflow-x: hidden;
-} */
-
 .diagonal-section {
   background-image: linear-gradient(45deg, var(--black), var(--dark));
-  /* background-image: linear-gradient(45deg, #6303B1, #ff0099); */
   transform: skewY(-3deg);
   width: 100% !important;
-  /* margin-top: -10vh; */
   margin-top: auto;
-  /* margin-bottom: 30vh; */
   margin-bottom: auto;
   display: flex;
   align-items: center;
@@ -78,21 +70,9 @@
     #231557 100%
   );
   /* background-image: linear-gradient(45deg, #6303B1, #ff0099); */
-  /* background-image: linear-gradient(
-    -225deg,
-    #231557 20%,
-    #44107a 35%,
-    #ff1361 50%,
-    #fff800 60%,
-    #ff1361 70%,
-    #44107a 85%,
-    #231557 100%
-  ); */
   transform: skewY(3deg);
   width: 100% !important;
-  /* margin-top: -10vh; */
   margin-top: auto;
-  /* margin-bottom: 30vh; */
   margin-bottom: auto;
   display: flex;
   align-items: center;

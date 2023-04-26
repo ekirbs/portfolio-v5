@@ -1,4 +1,4 @@
-/* TECHS BANNER STYLE */
+/* | TECHS BANNER STYLE | */
 .techs-card {
   background: var(--secondary);
   display: flex;
@@ -16,7 +16,7 @@
   margin: 0.5vh 0;
 }
 
-/* TECH LOGO ICON ANIMATION SET */
+/* | TECH LOGO ICON ANIMATION SET | */
 .css3-logo {
   -webkit-animation-name: techs-animation1;
   animation-name: techs-animation1;
@@ -538,6 +538,7 @@
   }
 }
 
+/* | @MEDIA QUERIES | */
 @media screen and (max-width: 800px) {
   .tech-logo {
     height: 8vh;

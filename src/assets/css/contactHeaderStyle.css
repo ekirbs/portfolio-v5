@@ -6,29 +6,20 @@
   background-size: cover;
   height: 50vh;
   width: 100%;
-  /* font-size: larger; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: var(--white);
 }
-@media screen and (max-width: 900px) {
-  .contact-header h1 {
-
-  }
-}
 
 .contact-header-name {
   padding-bottom: 5px;
-  /* border-top: 2px solid var(--white);
-  border-bottom: 2px solid var(--white); */
   width: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 2vh;
-  /* background-color: rgba(128 128 128 .5); */
   background-image: linear-gradient(
     -90deg,
     transparent 0%,
@@ -58,6 +49,7 @@
   justify-content: center;
 }
 
+/* | @MEDIA QUERIES | */
 @media screen and (min-width: 820px) {
   .contact-header {
     background-repeat: no-repeat;
