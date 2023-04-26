@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio-v5/static/css/main.d4127b03.css",
-    "main.js": "/portfolio-v5/static/js/main.2b6ac0d0.js",
+    "main.css": "/portfolio-v5/static/css/main.b7a4def4.css",
+    "main.js": "/portfolio-v5/static/js/main.a1a69695.js",
     "static/media/profile-photo.jpg": "/portfolio-v5/static/media/profile-photo.ca50f76884202c140179.jpg",
     "static/media/puddle-stores.gif": "/portfolio-v5/static/media/puddle-stores.0d549535d1dec4b807e9.gif",
     "static/media/rain.gif": "/portfolio-v5/static/media/rain.a175254765a055af47b5.gif",
     "static/media/puddle-shine.gif": "/portfolio-v5/static/media/puddle-shine.65611c206ce8eb9d4c09.gif",
-    "static/media/tree-road.jpg": "/portfolio-v5/static/media/tree-road.f5ad180bc1a0bf541242.jpg",
     "static/media/black-space.png": "/portfolio-v5/static/media/black-space.89a6c0f166f9558bb6ae.png",
     "static/media/nat-park-travel-guide-screenshot.png": "/portfolio-v5/static/media/nat-park-travel-guide-screenshot.9635b15ca033496dfbba.png",
-    "static/media/task-sandwich.png": "/portfolio-v5/static/media/task-sandwich.815f6e536d60eafca282.png",
-    "static/media/thinking-robot.jpg": "/portfolio-v5/static/media/thinking-robot.dfc9b8a7381c9ca6fdbf.jpg",
-    "static/media/boston-street-cuisine.png": "/portfolio-v5/static/media/boston-street-cuisine.3706496330d2d8e6efa0.png",
+    "static/media/boston-street-cuisine.png": "/portfolio-v5/static/media/boston-street-cuisine.2787a8638c3cb0ebd16c.png",
+    "static/media/task-sandwich.png": "/portfolio-v5/static/media/task-sandwich.30eb3170650282fe4961.png",
+    "static/media/task-sandwich-mobile.jpg": "/portfolio-v5/static/media/task-sandwich-mobile.994f6b3a52a90cfe79d2.jpg",
     "static/media/instagram-logo.png": "/portfolio-v5/static/media/instagram-logo.59548a0198d107581f3e.png",
     "static/media/resume-img.png": "/portfolio-v5/static/media/resume-img.829ce43f0f9facb0d28a.png",
+    "static/media/boston-street-cuisine-mobile.jpg": "/portfolio-v5/static/media/boston-street-cuisine-mobile.26cd97817a02dbe7a2aa.jpg",
     "static/media/resume-download.pdf": "/portfolio-v5/static/media/resume-download.d8d220dbc43876a84ccf.pdf",
     "static/media/kcf-logo.png": "/portfolio-v5/static/media/kcf-logo.cc407719b847e507ed85.png",
-    "static/media/fireworks-road.jpg": "/portfolio-v5/static/media/fireworks-road.1bcd28c783fb61f16f04.jpg",
     "static/media/weather-forecast-screenshot.png": "/portfolio-v5/static/media/weather-forecast-screenshot.406c388bf31e565f9ce6.png",
     "static/media/daily-sched-screenshot.png": "/portfolio-v5/static/media/daily-sched-screenshot.6528d637459297ebd820.png",
     "static/media/robot-head.png": "/portfolio-v5/static/media/robot-head.3b9617ca650427f630ed.png",
@@ -34,11 +33,11 @@
     "static/media/slick.ttf": "/portfolio-v5/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/portfolio-v5/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio-v5/index.html",
-    "main.d4127b03.css.map": "/portfolio-v5/static/css/main.d4127b03.css.map",
-    "main.2b6ac0d0.js.map": "/portfolio-v5/static/js/main.2b6ac0d0.js.map"
+    "main.b7a4def4.css.map": "/portfolio-v5/static/css/main.b7a4def4.css.map",
+    "main.a1a69695.js.map": "/portfolio-v5/static/js/main.a1a69695.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4127b03.css",
-    "static/js/main.2b6ac0d0.js"
+    "static/css/main.b7a4def4.css",
+    "static/js/main.a1a69695.js"
   ]
 }
