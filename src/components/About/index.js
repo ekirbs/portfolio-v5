@@ -1,5 +1,4 @@
 import React from "react";
-import { Row, Col, Container } from "react-bootstrap";
 import { profilePhoto } from "../../assets/images";
 import "../../assets/css/aboutStyle.css";
 
@@ -8,7 +7,6 @@ export default function About() {
   return (
     <>
       <div className="about-card">
-        {/* <h3>Hi!</h3> */}
         <div className="about-section alva-display">
           <p className="about-content">
             I am a <span className="caps">Web Developer</span> and graduate of the <span className="caps">Rutgers University</span>

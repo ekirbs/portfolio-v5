@@ -5,7 +5,6 @@ import { Map } from "../";
 import { validateEmail } from "../../utils/helpers";
 import "../../assets/css/contactStyle.css";
 import { AiFillMail, AiFillPhone } from "react-icons/ai";
-// import { AiFillGithub, AiFillLinkedin, AiFillMail } from 'react-icons/ai';
 
 export default function Contact() {
   const [errorMessage, setErrorMessage] = useState("");

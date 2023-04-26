@@ -65,10 +65,8 @@ export default class SimpleSlider extends Component {
                   </div>
                 </div>
                 <div className="showcase-lower-row">
-                  {/* <div className="showcase-links"> */}
                     <a href={deploy} target="_blank" rel="noreferrer"><GrDeploy className="button-icon-left" /><h4>Deployed App</h4><GrDeploy className="button-icon-right" /></a>
                     <a href={github} target="_blank" rel="noreferrer"><SiGithub className="button-icon-left" /><h4>GitHub Repo</h4><SiGithub className="button-icon-right" /></a>
-                  {/* </div> */}
                 </div>
               </div>
             ))}

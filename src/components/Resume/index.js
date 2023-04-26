@@ -30,9 +30,6 @@ export default function Resume() {
         </div>
 
         <div className="resume-section-card">
-          {/* <Row style={{ height: "10%" }}>
-            <h3 className="resume-title">Education</h3>
-          </Row> */}
           <Row>
             <Col
               style={{
@@ -116,9 +113,6 @@ export default function Resume() {
         </div>
 
         <div className="resume-section-card">
-          {/* <Row style={{ height: "10%" }}>
-            <h3 className="resume-title">Experience</h3>
-          </Row> */}
           <Row>
             <Col
               style={{
