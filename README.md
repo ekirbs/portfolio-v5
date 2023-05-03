@@ -41,27 +41,10 @@ The navigation bar can always be found in the top right corner of the screen.  J
 
 <br>
 
-### ***Ex-Current Fun Stuff (none of this is here, section to be fixed soon!):***
-
-| Title            | Description | Image                                                                   |
-| :--------------- | :---------: | ----------------------------------------------------------------------: |
-| Music Player     | A web music player app to listen to chill lofi songs.  The song list is subject to change. | <img src="./public/assets/images/music-player-img.jpg" width="50%">     |
-| Weather Forecast | A weather forecast app using the OpenWeatherMap API.  Search for any city and get a 5-day forecast of the weather.  The information given is subject to change. | <img src="./public/assets/images/weather-forecast-img.jpg" width="50%"> |
-| Google Maps      | A Google global map app using the Google Maps API.  The map display is fully touch-capable.  Search for any location and the map will pinpoint the location.  The functionality is subject to change. | <img src="./public/assets/images/google-maps-img.jpg" width="50%">      |
-<br>
-
-![Tutorial GIF.](./public/assets/images/tutor-gif.gif)
-
-[![Tutorial](./assets/images/sql-tutor-img.png)](https://dropTutorialVideoHereInGihub.com/0000000.mp4))
-
-<br>
-
 ---
 >## Credits
 
 A special thanks to the developers of the packages I've utilized on this site through Node Package Manager(**npm**):
-
-Link: [React Google Maps API](https://www.npmjs.com/package/@react-google-maps/api 'A google maps package using the Google Maps API.') - Google Maps by JustFly1984
 
 <br>
 

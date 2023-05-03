@@ -1,5 +1,5 @@
 import React from "react";
-import { FaHtml5, FaReact, FaNodeJs, FaNpm } from "react-icons/fa";
+import { FaHtml5, FaReact, FaNodeJs, FaNpm, FaSass } from "react-icons/fa";
 import {
   DiCss3,
   DiJavascript1,
@@ -22,6 +22,7 @@ import {
   SiMicrosoftoffice,
   SiNodemon,
   SiJson,
+  SiPug
 } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { TbBrandVscode } from "react-icons/tb";
@@ -59,7 +60,9 @@ export default function Techs() {
         <SiSequelize className="tech-logo sequelize-logo" title="Sequelize" />
 
         {/* <DiBootstrap className="tech-logo bootstrap-logo" title="Bootstrap" />
+        <FaSass className="tech-logo sass-logo" title="Sass" />
         <SiInsomnia className="tech-logo insomnia-logo" title="Insomnia" />
+        <SiPug className="tech-logo pug-logo" title="Pug" />
         <SiPassport className="tech-logo passport-logo" title="Passport.js" />
         <SiHeroku className="tech-logo heroku-logo" title="Heroku" />
         <SiGithub className="tech-logo github-logo" title="GitHub" />
