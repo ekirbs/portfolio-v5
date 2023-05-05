@@ -28,14 +28,6 @@ export default class SimpleSlider extends Component {
         <div id="projects" className="projects-card">
           <Slider {...settings} className="projects-slider" >
 
-            {/* <div className="showcase-card">
-              <h3>MAXIMUM</h3>
-            </div>
-
-            <div className="showcase-card">
-              <h3>POWER!!</h3>
-            </div> */}
-
             {projects.map(({  pic, title, description, technologies, deploy, github }, index) => (
               <div className="showcase-card">
                 <h3 className="showcase-main-title">{title}</h3>
