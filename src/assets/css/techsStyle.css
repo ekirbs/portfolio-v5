@@ -20,8 +20,8 @@
 .css3-logo {
   -webkit-animation-name: techs-animation1;
   animation-name: techs-animation1;
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
+  -webkit-animation-duration: 9s;
+  animation-duration: 9s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
     /* -webkit-animation: techs-animation1 6s infinite; */
@@ -31,8 +31,8 @@
 .js-logo {
   -webkit-animation-name: techs-animation2;
   animation-name: techs-animation2;
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
+  -webkit-animation-duration: 9s;
+  animation-duration: 9s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   /* -webkit-animation: techs-animation2 6s infinite;
@@ -42,8 +42,8 @@
 .apollo-logo {
   -webkit-animation-name: techs-animation3;
   animation-name: techs-animation3;
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
+  -webkit-animation-duration: 9s;
+  animation-duration: 9s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   /* -webkit-animation: techs-animation3 6s infinite;
@@ -53,8 +53,8 @@
 .jquery-logo {
   -webkit-animation-name: techs-animation4;
   animation-name: techs-animation4;
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
+  -webkit-animation-duration: 9s;
+  animation-duration: 9s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   /* -webkit-animation: techs-animation4 6s infinite;
@@ -64,8 +64,8 @@
 .html5-logo {
   -webkit-animation-name: techs-animation5;
   animation-name: techs-animation5;
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
+  -webkit-animation-duration: 9s;
+  animation-duration: 9s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   /* -webkit-animation: techs-animation5 6s infinite;
@@ -75,8 +75,8 @@
 .node-logo {
   -webkit-animation-name: techs-animation6;
   animation-name: techs-animation6;
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
+  -webkit-animation-duration: 9s;
+  animation-duration: 9s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   /* -webkit-animation: techs-animation6 6s infinite;
@@ -86,8 +86,8 @@
 .react-logo {
   -webkit-animation-name: techs-animation7;
   animation-name: techs-animation7;
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
+  -webkit-animation-duration: 9s;
+  animation-duration: 9s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   /* -webkit-animation: techs-animation7 6s infinite;
@@ -97,8 +97,8 @@
 .mongo-logo {
   -webkit-animation-name: techs-animation8;
   animation-name: techs-animation8;
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
+  -webkit-animation-duration: 9s;
+  animation-duration: 9s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   /* -webkit-animation: techs-animation8 6s infinite;
@@ -108,8 +108,8 @@
 .graph-logo {
   -webkit-animation-name: techs-animation9;
   animation-name: techs-animation9;
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
+  -webkit-animation-duration: 9s;
+  animation-duration: 9s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   /* -webkit-animation: techs-animation9 6s infinite;
@@ -119,8 +119,8 @@
 .express-logo {
   -webkit-animation-name: techs-animation10;
   animation-name: techs-animation10;
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
+  -webkit-animation-duration: 9s;
+  animation-duration: 9s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   /* -webkit-animation: techs-animation10 6s infinite;
@@ -130,8 +130,8 @@
 .handlebars-logo {
   -webkit-animation-name: techs-animation11;
   animation-name: techs-animation11;
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
+  -webkit-animation-duration: 9s;
+  animation-duration: 9s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   /* -webkit-animation: techs-animation11 6s infinite;
@@ -141,8 +141,74 @@
 .sequelize-logo {
   -webkit-animation-name: techs-animation12;
   animation-name: techs-animation12;
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
+  -webkit-animation-duration: 9s;
+  animation-duration: 9s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /* -webkit-animation: techs-animation12 6s infinite;
+  animation: techs-animation12 6s infinite; */
+}
+
+.bootstrap-logo {
+  -webkit-animation-name: techs-animation13;
+  animation-name: techs-animation13;
+  -webkit-animation-duration: 9s;
+  animation-duration: 9s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /* -webkit-animation: techs-animation12 6s infinite;
+  animation: techs-animation12 6s infinite; */
+}
+
+.insomnia-logo {
+  -webkit-animation-name: techs-animation14;
+  animation-name: techs-animation14;
+  -webkit-animation-duration: 9s;
+  animation-duration: 9s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /* -webkit-animation: techs-animation12 6s infinite;
+  animation: techs-animation12 6s infinite; */
+}
+
+.heroku-logo {
+  -webkit-animation-name: techs-animation15;
+  animation-name: techs-animation15;
+  -webkit-animation-duration: 9s;
+  animation-duration: 9s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /* -webkit-animation: techs-animation12 6s infinite;
+  animation: techs-animation12 6s infinite; */
+}
+
+.github-logo {
+  -webkit-animation-name: techs-animation16;
+  animation-name: techs-animation16;
+  -webkit-animation-duration: 9s;
+  animation-duration: 9s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /* -webkit-animation: techs-animation12 6s infinite;
+  animation: techs-animation12 6s infinite; */
+}
+
+.axios-logo {
+  -webkit-animation-name: techs-animation17;
+  animation-name: techs-animation17;
+  -webkit-animation-duration: 9s;
+  animation-duration: 9s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /* -webkit-animation: techs-animation12 6s infinite;
+  animation: techs-animation12 6s infinite; */
+}
+
+.sass-logo {
+  -webkit-animation-name: techs-animation18;
+  animation-name: techs-animation18;
+  -webkit-animation-duration: 9s;
+  animation-duration: 9s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   /* -webkit-animation: techs-animation12 6s infinite;
@@ -154,10 +220,10 @@
   0% {
     color: var(--black);
   }
-  8.33% {
+  5.56% {
     color: var(--css3);
   }
-  16.66% {
+  11.11% {
     color: var(--black);
   }
   100% {
@@ -170,13 +236,13 @@
   100% {
     color: var(--black);
   }
-  8.33% {
+  5.56% {
     color: var(--black);
   }
-  16.66% {
+  11.11% {
     color: var(--js);
   }
-  24.99% {
+  16.67% {
     color: var(--black);
   }
 }
@@ -186,13 +252,13 @@
   100% {
     color: var(--black);
   }
-  16.66% {
+  11.11% {
     color: var(--black);
   }
-  24.99% {
+  16.67% {
     color: var(--apollo);
   }
-  33.33% {
+  22.22% {
     color: var(--black);
   }
 }
@@ -202,13 +268,13 @@
   100% {
     color: var(--black);
   }
-  24.99% {
+  16.67% {
     color: var(--black);
   }
-  33.33% {
+  22.22% {
     color: var(--jquery);
   }
-  41.66% {
+  27.78% {
     color: var(--black);
   }
 }
@@ -218,13 +284,13 @@
   100% {
     color: var(--black);
   }
-  33.33% {
+  22.22% {
     color: var(--black);
   }
-  41.66% {
+  27.78% {
     color: var(--html5);
   }
-  49.99% {
+  33.33% {
     color: var(--black);
   }
 }
@@ -234,13 +300,13 @@
   100% {
     color: var(--black);
   }
-  41.66% {
+  27.78% {
     color: var(--black);
   }
-  49.99% {
+  33.33% {
     color: var(--node);
   }
-  58.33% {
+  38.89% {
     color: var(--black);
   }
 }
@@ -250,13 +316,13 @@
   100% {
     color: var(--black);
   }
-  49.99% {
+  33.33% {
     color: var(--black);
   }
-  58.33% {
+  38.89% {
     color: var(--react);
   }
-  66.66% {
+  44.44% {
     color: var(--black);
   }
 }
@@ -266,13 +332,13 @@
   100% {
     color: var(--black);
   }
-  58.33% {
+  38.89% {
     color: var(--black);
   }
-  66.66% {
+  44.44% {
     color: var(--mongo);
   }
-  74.99% {
+  50% {
     color: var(--black);
   }
 }
@@ -282,13 +348,13 @@
   100% {
     color: var(--black);
   }
-  66.66% {
+  44.44% {
     color: var(--black);
   }
-  74.99% {
+  50% {
     color: var(--graph);
   }
-  83.33% {
+  55.56% {
     color: var(--black);
   }
 }
@@ -298,13 +364,13 @@
   100% {
     color: var(--black);
   }
-  74.99% {
+  50% {
     color: var(--black);
   }
-  83.33% {
+  55.56% {
     color: var(--express);
   }
-  91.66% {
+  61.11% {
     color: var(--black);
   }
 }
@@ -314,13 +380,13 @@
   100% {
     color: var(--black);
   }
-  83.33% {
+  55.56% {
     color: var(--black);
   }
-  91.66% {
+  61.11% {
     color: var(--handlebars);
   }
-  100% {
+  66.67% {
     color: var(--black);
   }
 }
@@ -330,13 +396,109 @@
   100% {
     color: var(--black);
   }
-  91.66% {
+  61.11% {
+    color: var(--black);
+  }
+  66.67% {
+    color: var(--sequelize);
+  }
+  72.22% {
+    color: var(--black);
+  }
+}
+
+@-webkit-keyframes techs-animation13 {
+  0%,
+  100% {
+    color: var(--black);
+  }
+  66.67% {
+    color: var(--black);
+  }
+  72.22% {
+    color: var(--bootstrap);
+  }
+  77.78% {
+    color: var(--black);
+  }
+}
+
+@-webkit-keyframes techs-animation14 {
+  0%,
+  100% {
+    color: var(--black);
+  }
+  72.22% {
+    color: var(--black);
+  }
+  77.78% {
+    color: var(--insomnia);
+  }
+  83.33% {
+    color: var(--black);
+  }
+}
+
+@-webkit-keyframes techs-animation15 {
+  0%,
+  100% {
+    color: var(--black);
+  }
+  77.78% {
+    color: var(--black);
+  }
+  83.33% {
+    color: var(--heroku);
+  }
+  88.89% {
+    color: var(--black);
+  }
+}
+
+@-webkit-keyframes techs-animation16 {
+  0%,
+  100% {
+    color: var(--black);
+  }
+  83.33% {
+    color: var(--black);
+  }
+  88.89% {
+    color: var(--github);
+  }
+  94.44% {
+    color: var(--black);
+  }
+}
+
+@-webkit-keyframes techs-animation17 {
+  0%,
+  100% {
+    color: var(--black);
+  }
+  88.89% {
+    color: var(--black);
+  }
+  94.44% {
+    color: var(--axios);
+  }
+  100% {
+    color: var(--black);
+  }
+}
+
+@-webkit-keyframes techs-animation18 {
+  0%,
+  100% {
+    color: var(--black);
+  }
+  94.44% {
     color: var(--black);
   }
   100% {
-    color: var(--sequelize);
+    color: var(--sass);
   }
-  108.33% {
+  105.56% {
     color: var(--black);
   }
 }
@@ -348,11 +510,11 @@
     /* -webkit-color: var(--black); */
     color: var(--black);
   }
-  8.33% {
+  5.56% {
     /* -webkit-color: var(--css3); */
     color: var(--css3);
   }
-  16.66% {
+  11.11% {
     /* -webkit-color: var(--black); */
     color: var(--black);
   }
@@ -367,13 +529,13 @@
   100% {
     color: var(--black);
   }
-  8.33% {
+  5.56% {
     color: var(--black);
   }
-  16.66% {
+  11.11% {
     color: var(--js);
   }
-  24.99% {
+  16.67% {
     color: var(--black);
   }
 }
@@ -383,13 +545,13 @@
   100% {
     color: var(--black);
   }
-  16.66% {
+  11.11% {
     color: var(--black);
   }
-  24.99% {
+  16.67% {
     color: var(--apollo);
   }
-  33.33% {
+  22.22% {
     color: var(--black);
   }
 }
@@ -399,13 +561,13 @@
   100% {
     color: var(--black);
   }
-  24.99% {
+  16.67% {
     color: var(--black);
   }
-  33.33% {
+  22.22% {
     color: var(--jquery);
   }
-  41.66% {
+  27.78% {
     color: var(--black);
   }
 }
@@ -415,13 +577,13 @@
   100% {
     color: var(--black);
   }
-  33.33% {
+  22.22% {
     color: var(--black);
   }
-  41.66% {
+  27.78% {
     color: var(--html5);
   }
-  49.99% {
+  33.33% {
     color: var(--black);
   }
 }
@@ -431,13 +593,13 @@
   100% {
     color: var(--black);
   }
-  41.66% {
+  27.78% {
     color: var(--black);
   }
-  49.99% {
+  33.33% {
     color: var(--node);
   }
-  58.33% {
+  38.89% {
     color: var(--black);
   }
 }
@@ -447,13 +609,13 @@
   100% {
     color: var(--black);
   }
-  49.99% {
+  33.33% {
     color: var(--black);
   }
-  58.33% {
+  38.89% {
     color: var(--react);
   }
-  66.66% {
+  44.44% {
     color: var(--black);
   }
 }
@@ -463,13 +625,13 @@
   100% {
     color: var(--black);
   }
-  58.33% {
+  38.89% {
     color: var(--black);
   }
-  66.66% {
+  44.44% {
     color: var(--mongo);
   }
-  74.99% {
+  50% {
     color: var(--black);
   }
 }
@@ -479,13 +641,13 @@
   100% {
     color: var(--black);
   }
-  66.66% {
+  44.44% {
     color: var(--black);
   }
-  74.99% {
+  50% {
     color: var(--graph);
   }
-  83.33% {
+  55.56% {
     color: var(--black);
   }
 }
@@ -495,13 +657,13 @@
   100% {
     color: var(--black);
   }
-  74.99% {
+  50% {
     color: var(--black);
   }
-  83.33% {
+  55.56% {
     color: var(--express);
   }
-  91.66% {
+  61.11% {
     color: var(--black);
   }
 }
@@ -511,13 +673,13 @@
   100% {
     color: var(--black);
   }
-  83.33% {
+  55.56% {
     color: var(--black);
   }
-  91.66% {
+  61.11% {
     color: var(--handlebars);
   }
-  100% {
+  66.67% {
     color: var(--black);
   }
 }
@@ -527,13 +689,109 @@
   100% {
     color: var(--black);
   }
-  91.66% {
+  61.11% {
+    color: var(--black);
+  }
+  66.67% {
+    color: var(--sequelize);
+  }
+  72.22% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation13 {
+  0%,
+  100% {
+    color: var(--black);
+  }
+  66.67% {
+    color: var(--black);
+  }
+  72.22% {
+    color: var(--bootstrap);
+  }
+  77.78% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation14 {
+  0%,
+  100% {
+    color: var(--black);
+  }
+  72.22% {
+    color: var(--black);
+  }
+  77.78% {
+    color: var(--insomnia);
+  }
+  83.33% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation15 {
+  0%,
+  100% {
+    color: var(--black);
+  }
+  77.78% {
+    color: var(--black);
+  }
+  83.33% {
+    color: var(--heroku);
+  }
+  88.89% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation16 {
+  0%,
+  100% {
+    color: var(--black);
+  }
+  83.33% {
+    color: var(--black);
+  }
+  88.89% {
+    color: var(--github);
+  }
+  94.44% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation17 {
+  0%,
+  100% {
+    color: var(--black);
+  }
+  88.89% {
+    color: var(--black);
+  }
+  94.44% {
+    color: var(--axios);
+  }
+  100% {
+    color: var(--black);
+  }
+}
+
+@keyframes techs-animation18 {
+  0%,
+  100% {
+    color: var(--black);
+  }
+  94.44% {
     color: var(--black);
   }
   100% {
-    color: var(--sequelize);
+    color: var(--sass);
   }
-  108.33% {
+  105.56% {
     color: var(--black);
   }
 }

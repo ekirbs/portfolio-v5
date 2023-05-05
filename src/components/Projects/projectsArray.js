@@ -120,7 +120,7 @@ const Projects = [
   {
     "title": "Express Note Taker",
     "pic": expressNoteTaker,
-    "deploy": "https://heroku-express-note-taker.herokuapp.com/",
+    "deploy": "#",
     "github": "https://github.com/ekirbs/express-note-taker",
     "description": "An application that stores, displays, and manages notes.  (Not currently deployed).",
     "technologies": [

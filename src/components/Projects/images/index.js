@@ -5,5 +5,6 @@ export { default as randomPasswordGenerator } from "./password-generator.png";
 export { default as weatherForecast } from "./weather-forecast-finder.png";
 export { default as bostonStreetCuisine } from "./boston-street-cuisine.png";
 export { default as taskSandwich } from "./task-sandwich.png";
+export { default as expressNoteTaker } from "./express-note-taker.png";
 export { default as bostonStreetCuisineMobile } from "./boston-street-cuisine-mobile.jpg";
 export { default as taskSandwichMobile } from "./task-sandwich-mobile.jpg";
