@@ -20,7 +20,8 @@ import { SiSequelize, SiGraphql, SiApollographql, SiHandlebarsdotjs, SiExpress, 
 const Projects = [
   {
     "title": "Task Sandwich",
-    "pic": window.innerWidth <= 800 ? taskSandwichMobile : taskSandwich,
+    "pic": taskSandwich,
+    // "pic": window.innerWidth <= 800 ? taskSandwichMobile : taskSandwich,
     "deploy": "https://task-sandwich.herokuapp.com",
     "github": "https://github.com/slerner/task-sandwich",
     "description": "A task-management system with built in rewards system.",
@@ -38,7 +39,8 @@ const Projects = [
   },
   {
     "title": "Boston Street Cuisine",
-    "pic": window.innerWidth <= 800 ? bostonStreetCuisineMobile : bostonStreetCuisine,
+    "pic": bostonStreetCuisine,
+    // "pic": window.innerWidth <= 800 ? bostonStreetCuisineMobile : bostonStreetCuisine,
     "deploy": "https://boston-street-cuisine-app.herokuapp.com/",
     "github": "https://github.com/ekirbs/street-food-blog",
     "description": "Locate street food vendors in Boston. Find out information about them and discuss with other users.",

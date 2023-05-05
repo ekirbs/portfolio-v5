@@ -307,7 +307,7 @@
 
 @media screen and (max-width: 800px) {
   .projects-slider {
-    max-height: 115vh;
+    max-height: 150vh;
   }
 
   .showcase-upper-row {
@@ -316,6 +316,10 @@
 
   .showcase-pic {
     width: 100%;
+  }
+  .showcase-pic img {
+    height: auto;
+    width: 75vw;
   }
 
   .showcase-lower-row {
