@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-v5/static/css/main.1585ce12.css",
-    "main.js": "/portfolio-v5/static/js/main.c8ee1dd1.js",
+    "main.css": "/portfolio-v5/static/css/main.371d074f.css",
+    "main.js": "/portfolio-v5/static/js/main.7333a282.js",
     "static/media/profile-photo.jpg": "/portfolio-v5/static/media/profile-photo.ca50f76884202c140179.jpg",
     "static/media/puddle-stores.gif": "/portfolio-v5/static/media/puddle-stores.0d549535d1dec4b807e9.gif",
     "static/media/rain.gif": "/portfolio-v5/static/media/rain.a175254765a055af47b5.gif",
@@ -34,11 +34,11 @@
     "static/media/slick.ttf": "/portfolio-v5/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/portfolio-v5/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio-v5/index.html",
-    "main.1585ce12.css.map": "/portfolio-v5/static/css/main.1585ce12.css.map",
-    "main.c8ee1dd1.js.map": "/portfolio-v5/static/js/main.c8ee1dd1.js.map"
+    "main.371d074f.css.map": "/portfolio-v5/static/css/main.371d074f.css.map",
+    "main.7333a282.js.map": "/portfolio-v5/static/js/main.7333a282.js.map"
   },
   "entrypoints": [
-    "static/css/main.1585ce12.css",
-    "static/js/main.c8ee1dd1.js"
+    "static/css/main.371d074f.css",
+    "static/js/main.7333a282.js"
   ]
 }
