@@ -59,20 +59,21 @@ export default function Techs() {
         <SiHandlebarsdotjs className="tech-logo handlebars-logo" title="Handlebars.js" />
         <SiSequelize className="tech-logo sequelize-logo" title="Sequelize" />
 
-        {/* <DiBootstrap className="tech-logo bootstrap-logo" title="Bootstrap" />
         <FaSass className="tech-logo sass-logo" title="Sass" />
-        <SiInsomnia className="tech-logo insomnia-logo" title="Insomnia" />
-        <SiPug className="tech-logo pug-logo" title="Pug" />
-        <SiPassport className="tech-logo passport-logo" title="Passport.js" />
+        <SiAxios className="tech-logo axios-logo" title="Axios" />
         <SiHeroku className="tech-logo heroku-logo" title="Heroku" />
         <SiGithub className="tech-logo github-logo" title="GitHub" />
+        <SiInsomnia className="tech-logo insomnia-logo" title="Insomnia" />
+        <DiBootstrap className="tech-logo bootstrap-logo" title="Bootstrap" />
+
+        {/* <SiPug className="tech-logo pug-logo" title="Pug" />
+        <SiPassport className="tech-logo passport-logo" title="Passport.js" />
         <SiMicrosoftoffice className="tech-logo msoffice-logo" title="Microsoft Office" />
         <FaNpm className="tech-logo npm-logo" title="NPM" />
         <GrMysql className="tech-logo mysql-logo" title="MySQL" />
         <DiMaterializecss className="tech-logo materialize-logo" title="Materialize CSS" />
         <SiNodemon className="tech-logo nodemon-logo" title="Nodemon" />
         <SiJson className="tech-logo json-logo" title="JSON" />
-        <SiAxios className="tech-logo axios-logo" title="Axios" />
         <TbBrandVscode className="tech-logo vscode-logo" title="VS Code" /> */}
       </div>
     </>
