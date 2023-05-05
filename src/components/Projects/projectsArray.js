@@ -1,5 +1,5 @@
 // import { useState, useEffect } from 'react';
-import { dailySchedulePlanner, theBigQuiz, natParkTravelGuide, randomPasswordGenerator, weatherForecast, bostonStreetCuisine, taskSandwich, bostonStreetCuisineMobile, taskSandwichMobile } from './images';
+import { dailySchedulePlanner, theBigQuiz, expressNoteTaker, natParkTravelGuide, randomPasswordGenerator, weatherForecast, bostonStreetCuisine, taskSandwich, bostonStreetCuisineMobile, taskSandwichMobile } from './images';
 import { FaHtml5, FaReact, FaNodeJs } from "react-icons/fa";
 import { DiBootstrap, DiCss3, DiJavascript1, DiMongodb } from "react-icons/di";
 import { SiSequelize, SiGraphql, SiApollographql, SiHandlebarsdotjs, SiExpress, SiJquery } from "react-icons/si";
