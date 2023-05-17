@@ -4,6 +4,7 @@ import { Row, Col } from "react-bootstrap";
 import { Map } from "../";
 import { validateEmail } from "../../utils/helpers";
 import "../../assets/css/contactStyle.css";
+import "../../assets/sass/contactButton.sass";
 import { AiFillMail, AiFillPhone } from "react-icons/ai";
 
 export default function Contact() {
@@ -99,11 +100,18 @@ export default function Contact() {
                     />
                     <button
                       type="button"
-                      className="btn btn-secondary contact-button"
+                      className="slideButton"
                       onClick={handleFormSubmit}
                     >
                       Send It
                     </button>
+                    {/* <button
+                      type="button"
+                      className="btn btn-secondary contact-button"
+                      onClick={handleFormSubmit}
+                    >
+                      Send It
+                    </button> */}
                   </form>
                   {errorMessage && (
                     <div className="error-div">
