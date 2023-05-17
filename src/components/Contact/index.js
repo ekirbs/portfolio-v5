@@ -101,19 +101,12 @@ export default function Contact() {
                     <div className="contactButtonDiv">
                       <button
                         type="button"
-                        className="slideButton"
+                        className="slideButton contact-button"
                         onClick={handleFormSubmit}
                       >
                         Send It
                       </button>
                     </div>
-                    {/* <button
-                      type="button"
-                      className="slideButton"
-                      onClick={handleFormSubmit}
-                    >
-                      Send It
-                    </button> */}
                     {/* <button
                       type="button"
                       className="btn btn-secondary contact-button"

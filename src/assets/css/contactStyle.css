@@ -83,20 +83,21 @@
 }
 
 .contactButtonDiv {
-  padding: .5vh;
-  background-color: var(--white);
+  margin: .5vh;
+  padding: 1vh 1.5vh;
+  background-color: var(--turq);
   border-radius: 20rem;
 }
 
-/* .contact-button {
+.contact-button {
   transition: transform .2s;
-  box-shadow: 1px 1px 2px var(--black);
-  margin: 1vh;
+  /* box-shadow: 1px 1px 2px var(--black);
+  margin: 1vh; */
 }
 
 .contact-button:hover {
   transform: scale(1.1);
-} */
+}
 
 
 /* | @MEDIA QUERIES | */
