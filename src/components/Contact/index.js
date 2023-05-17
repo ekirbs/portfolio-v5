@@ -4,7 +4,7 @@ import { Row, Col } from "react-bootstrap";
 import { Map } from "../";
 import { validateEmail } from "../../utils/helpers";
 import "../../assets/css/contactStyle.css";
-import "../../assets/sass/contactButton.sass";
+import "../../assets/sass/contactButton.scss";
 import { AiFillMail, AiFillPhone } from "react-icons/ai";
 
 export default function Contact() {
@@ -98,13 +98,22 @@ export default function Contact() {
                       placeholder="Text Area"
                       className="contact-area text-area"
                     />
-                    <button
+                    <div className="contactButtonDiv">
+                      <button
+                        type="button"
+                        className="slideButton"
+                        onClick={handleFormSubmit}
+                      >
+                        Send It
+                      </button>
+                    </div>
+                    {/* <button
                       type="button"
                       className="slideButton"
                       onClick={handleFormSubmit}
                     >
                       Send It
-                    </button>
+                    </button> */}
                     {/* <button
                       type="button"
                       className="btn btn-secondary contact-button"
