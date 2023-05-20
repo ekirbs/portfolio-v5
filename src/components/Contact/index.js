@@ -17,7 +17,7 @@ export default function Contact() {
   const [submitted, setSubmit] = useState(false);
 
   const handleInputChange = (e) =>
-    setFormInput({ ...formInput, [e.target.name]: e.target.value });
+    setFormInput({ ...formInput, [e.target.from_name]: e.target.value });
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
@@ -76,7 +76,7 @@ export default function Contact() {
                   <form className="contact-form">
                     <input
                       value={formInput.from_name}
-                      name="name"
+                      name="from_name"
                       onChange={handleInputChange}
                       type="text"
                       placeholder="Your Name"
@@ -84,7 +84,7 @@ export default function Contact() {
                     />
                     <input
                       value={formInput.reply_to}
-                      name="email"
+                      name="reply_to"
                       onChange={handleInputChange}
                       type="email"
                       placeholder="Your Email"
