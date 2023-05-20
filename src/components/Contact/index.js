@@ -17,7 +17,7 @@ export default function Contact() {
   const [submitted, setSubmit] = useState(false);
 
   const handleInputChange = (e) =>
-    setFormInput({ ...formInput, [e.target.from_name]: e.target.value });
+    setFormInput({ ...formInput, [e.target.name]: e.target.value });
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
