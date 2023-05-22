@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-v5/static/css/main.e3384744.css",
-    "main.js": "/portfolio-v5/static/js/main.f7c7ebb5.js",
+    "main.js": "/portfolio-v5/static/js/main.46c61549.js",
     "static/media/profile-photo.jpg": "/portfolio-v5/static/media/profile-photo.ca50f76884202c140179.jpg",
     "static/media/puddle-stores.gif": "/portfolio-v5/static/media/puddle-stores.0d549535d1dec4b807e9.gif",
     "static/media/rain.gif": "/portfolio-v5/static/media/rain.a175254765a055af47b5.gif",
@@ -16,6 +16,7 @@
     "static/media/resume-img.png": "/portfolio-v5/static/media/resume-img.829ce43f0f9facb0d28a.png",
     "static/media/boston-street-cuisine-mobile.jpg": "/portfolio-v5/static/media/boston-street-cuisine-mobile.26cd97817a02dbe7a2aa.jpg",
     "static/media/resume-download.pdf": "/portfolio-v5/static/media/resume-download.4205a5d3821d2adee432.pdf",
+    "static/media/HereWeGo.mp3": "/portfolio-v5/static/media/HereWeGo.180b99142ba3112a3f14.mp3",
     "static/media/kcf-logo.png": "/portfolio-v5/static/media/kcf-logo.cc407719b847e507ed85.png",
     "static/media/daily-schedule-planner.png": "/portfolio-v5/static/media/daily-schedule-planner.2ac6b8bdcd607c1d458d.png",
     "static/media/robot-head.png": "/portfolio-v5/static/media/robot-head.3b9617ca650427f630ed.png",
@@ -35,10 +36,10 @@
     "static/media/slick.woff": "/portfolio-v5/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio-v5/index.html",
     "main.e3384744.css.map": "/portfolio-v5/static/css/main.e3384744.css.map",
-    "main.f7c7ebb5.js.map": "/portfolio-v5/static/js/main.f7c7ebb5.js.map"
+    "main.46c61549.js.map": "/portfolio-v5/static/js/main.46c61549.js.map"
   },
   "entrypoints": [
     "static/css/main.e3384744.css",
-    "static/js/main.f7c7ebb5.js"
+    "static/js/main.46c61549.js"
   ]
 }
