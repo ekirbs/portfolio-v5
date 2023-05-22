@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { send } from "emailjs-com";
 import { Row, Col } from "react-bootstrap";
 import { Map } from "../";
@@ -6,6 +6,7 @@ import { validateEmail } from "../../utils/helpers";
 import "../../assets/css/contactStyle.css";
 import "../../assets/sass/contactButton.scss";
 import { AiFillMail, AiFillPhone } from "react-icons/ai";
+import HereWeGo from "../../assets/sounds/HereWeGo.mp3";
 
 export default function Contact() {
   const [errorMessage, setErrorMessage] = useState("");
@@ -15,6 +16,13 @@ export default function Contact() {
     message: "",
   });
   const [submitted, setSubmit] = useState(false);
+  const audioRef = useRef(null);
+
+  useEffect(() => {
+    if (submitted) {
+      audioRef.current.play();
+    }
+  }, [submitted]);
 
   const handleInputChange = (e) =>
     setFormInput({ ...formInput, [e.target.name]: e.target.value });
@@ -107,6 +115,11 @@ export default function Contact() {
                         Send It
                       </button>
                     </div>
+                    <div>
+                      <p className="contact-card-content contact-form-content">
+                        (A sound will play when you send it)
+                      </p>
+                    </div>
                     {/* <button
                       type="button"
                       className="btn btn-secondary contact-button"
@@ -126,6 +139,7 @@ export default function Contact() {
           </Col>
         </Row>
       </div>
+      <audio ref={audioRef} src={HereWeGo}></audio>
     </>
   );
 };
