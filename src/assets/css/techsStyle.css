@@ -232,8 +232,7 @@
 }
 
 @-webkit-keyframes techs-animation2 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   5.56% {
@@ -245,11 +244,13 @@
   16.67% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @-webkit-keyframes techs-animation3 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   11.11% {
@@ -261,11 +262,13 @@
   22.22% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @-webkit-keyframes techs-animation4 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   16.67% {
@@ -277,11 +280,13 @@
   27.78% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @-webkit-keyframes techs-animation5 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   22.22% {
@@ -293,11 +298,13 @@
   33.33% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @-webkit-keyframes techs-animation6 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   27.78% {
@@ -309,11 +316,13 @@
   38.89% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @-webkit-keyframes techs-animation7 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   33.33% {
@@ -325,11 +334,13 @@
   44.44% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @-webkit-keyframes techs-animation8 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   38.89% {
@@ -341,11 +352,13 @@
   50% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @-webkit-keyframes techs-animation9 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   44.44% {
@@ -357,11 +370,13 @@
   55.56% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @-webkit-keyframes techs-animation10 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   50% {
@@ -373,11 +388,13 @@
   61.11% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @-webkit-keyframes techs-animation11 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   55.56% {
@@ -389,11 +406,13 @@
   66.67% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @-webkit-keyframes techs-animation12 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   61.11% {
@@ -405,11 +424,13 @@
   72.22% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @-webkit-keyframes techs-animation13 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   66.67% {
@@ -421,11 +442,13 @@
   77.78% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @-webkit-keyframes techs-animation14 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   72.22% {
@@ -437,11 +460,13 @@
   83.33% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @-webkit-keyframes techs-animation15 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   77.78% {
@@ -453,11 +478,13 @@
   88.89% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @-webkit-keyframes techs-animation16 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   83.33% {
@@ -469,11 +496,13 @@
   94.44% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @-webkit-keyframes techs-animation17 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   88.89% {
@@ -488,8 +517,7 @@
 }
 
 @-webkit-keyframes techs-animation18 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   94.44% {
@@ -525,8 +553,7 @@
 }
 
 @keyframes techs-animation2 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   5.56% {
@@ -538,11 +565,13 @@
   16.67% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @keyframes techs-animation3 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   11.11% {
@@ -554,11 +583,13 @@
   22.22% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @keyframes techs-animation4 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   16.67% {
@@ -570,11 +601,13 @@
   27.78% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @keyframes techs-animation5 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   22.22% {
@@ -586,11 +619,13 @@
   33.33% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @keyframes techs-animation6 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   27.78% {
@@ -602,11 +637,13 @@
   38.89% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @keyframes techs-animation7 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   33.33% {
@@ -618,11 +655,13 @@
   44.44% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @keyframes techs-animation8 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   38.89% {
@@ -634,11 +673,13 @@
   50% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @keyframes techs-animation9 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   44.44% {
@@ -650,11 +691,13 @@
   55.56% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @keyframes techs-animation10 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   50% {
@@ -666,11 +709,13 @@
   61.11% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @keyframes techs-animation11 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   55.56% {
@@ -682,11 +727,13 @@
   66.67% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @keyframes techs-animation12 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   61.11% {
@@ -698,11 +745,13 @@
   72.22% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @keyframes techs-animation13 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   66.67% {
@@ -714,11 +763,13 @@
   77.78% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @keyframes techs-animation14 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   72.22% {
@@ -730,11 +781,13 @@
   83.33% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @keyframes techs-animation15 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   77.78% {
@@ -746,11 +799,13 @@
   88.89% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @keyframes techs-animation16 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   83.33% {
@@ -762,11 +817,13 @@
   94.44% {
     color: var(--black);
   }
+  100% {
+    color: var(--black);
+  }
 }
 
 @keyframes techs-animation17 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   88.89% {
@@ -781,8 +838,7 @@
 }
 
 @keyframes techs-animation18 {
-  0%,
-  100% {
+  0% {
     color: var(--black);
   }
   94.44% {
