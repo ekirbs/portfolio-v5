@@ -1,5 +1,6 @@
 .about-header {
-  background-image: url(../../assets/images/puddle-stores.gif);
+  /* background-image: url(../../assets/images/puddle-stores.gif); */
+  background-image: url(../images/puddle-stores.gif);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

@@ -1,5 +1,5 @@
 .contact-header {
-  background-image: url(../../assets/images/rain.gif);
+  background-image: url(../images/rain.gif);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -50,7 +50,7 @@
 }
 
 /* | @MEDIA QUERIES | */
-@media screen and (min-width: 820px) {
+@media screen and (min-width: 1000px) {
   .contact-header {
     background-repeat: no-repeat;
     background-attachment: fixed;
