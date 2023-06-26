@@ -38,7 +38,7 @@
 }
 
 /* | @MEDIA QUERIES | */
-@media screen and (min-width: 820px) {
+@media screen and (min-width: 1000px) {
   .header {
     background-repeat: no-repeat;
     background-attachment: fixed;
