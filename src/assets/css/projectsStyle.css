@@ -31,6 +31,7 @@
   border: 2px solid var(--black);
   margin: 1vw;
   border-radius: 1vh;
+  min-height: 100vh;
 }
 
 .showcase-main-title {

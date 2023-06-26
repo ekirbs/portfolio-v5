@@ -99,6 +99,17 @@
   transform: scale(1.1);
 }
 
+@media screen and (max-width: 1100px) {
+  .contact-row {
+    flex-direction: column;
+  }
+
+  .map-col,
+  .contact-container {
+    width: 100%;
+  }
+}
+
 
 /* | @MEDIA QUERIES | */
 @media screen and (max-width: 500px) {
